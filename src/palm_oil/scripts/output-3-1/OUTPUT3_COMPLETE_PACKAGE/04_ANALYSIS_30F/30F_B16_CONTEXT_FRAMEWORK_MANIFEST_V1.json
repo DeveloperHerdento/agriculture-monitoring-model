@@ -1,0 +1,55 @@
+{
+  "stage": "30F-B16",
+  "version": "V1",
+  "semantic_rule": "Context highlights are explanatory only and are not causal diagnoses.",
+  "core_class_modified": false,
+  "core_risk_score_modified": false,
+  "chirps_context_count": 12,
+  "rainfall_threshold_basis": "AOI-relative quantiles across 12 unique CHIRPS coarse contexts; not sample-weighted.",
+  "rainfall_thresholds": {
+    "worst_anomaly_q25": -22.669768810272217,
+    "cdd_q75": 8.75,
+    "dry_days_q75": 134.5,
+    "rain_total_q75": 2910.7972450256348,
+    "mean_anomaly_q75": 13.349539036552112
+  },
+  "reason_codebook": {
+    "0": "NO_CONTEXT_HIGHLIGHT",
+    "101": "AOI_RELATIVE_DRY_RAINFALL_CONTEXT",
+    "102": "AOI_RELATIVE_WET_RAINFALL_CONTEXT",
+    "201": "AGE_CONTEXT_MISSING",
+    "301": "STATIC_CONTEXT_INCOMPLETE"
+  },
+  "age_codebook": {
+    "0": "NO_EVENT_DETECTED_2001_2025",
+    "1": "EVENT_2001_2005",
+    "2": "EVENT_2006_2010",
+    "3": "EVENT_2011_2015",
+    "4": "EVENT_2016_2020",
+    "5": "EVENT_2021_2025",
+    "9": "MISSING_CONTEXT"
+  },
+  "static_codebook": {
+    "0": "COMPLETE_STATIC_CONTEXT",
+    "1": "PARTIAL_STATIC_CONTEXT",
+    "9": "MISSING_STATIC_CONTEXT"
+  },
+  "rainfall_codebook": {
+    "0": "NO_STRONG_AOI_RELATIVE_HIGHLIGHT",
+    "1": "RELATIVELY_DRY_CONTEXT",
+    "2": "RELATIVELY_WET_CONTEXT"
+  },
+  "warning_codebook": {
+    "0": "NO_LOCAL_CONTEXT_COVERAGE_WARNING",
+    "1": "AGE_CONTEXT_MISSING",
+    "2": "STATIC_CONTEXT_INCOMPLETE",
+    "3": "MULTIPLE_LOCAL_CONTEXT_WARNINGS"
+  },
+  "global_product_warnings": [
+    "CHIRPS rainfall context has an effective spatial resolution of approximately 5.6 km and must not be interpreted as 10 m plantation information.",
+    "ERA5-Land and ET/PET context have an effective spatial resolution of approximately 11 km and are regional contextual information only.",
+    "Context reason codes represent contextual highlights and must not be interpreted as causal diagnoses of plantation stress, disease, nutrient deficiency, or management failure.",
+    "The production CONDITION_CLASS and RISK_SCORE_0_100 remain sourced from frozen 30D04 and are not modified by the contextual framework in Version 1."
+  ],
+  "next_stage": "30F-B17_SPATIAL_REJOIN_AND_MAPPING"
+}

@@ -1,0 +1,64 @@
+{
+  "class_cog": {
+    "filename": "SIAK_AOI01_O3_CLASS_COG_2025.tif",
+    "size_mb": 0.614,
+    "driver": "GTiff",
+    "width": 1507,
+    "height": 1507,
+    "bands": 3,
+    "crs": "EPSG:32647",
+    "transform": [
+      10.0,
+      0.0,
+      804540.0,
+      0.0,
+      -10.0,
+      87290.0
+    ],
+    "nodata": -9999.0,
+    "is_tiled": true,
+    "overviews": [
+      2,
+      4,
+      8,
+      16,
+      31
+    ],
+    "image_structure_layout": "PURE_PYTHON_STRUCTURAL_COG_QA",
+    "band_count_pass": true,
+    "crs_pass": true,
+    "cog_delivery_qa": "PASS",
+    "sha256": "2557cf3378d0163b662d61fa0b376bf44ea47330f01e0fad7494695d8b9c2c86"
+  },
+  "metrics_cog": {
+    "filename": "SIAK_AOI01_O3_METRICS_COG_2025.tif",
+    "size_mb": 12.122,
+    "driver": "GTiff",
+    "width": 1507,
+    "height": 1507,
+    "bands": 4,
+    "crs": "EPSG:32647",
+    "transform": [
+      10.0,
+      0.0,
+      804540.0,
+      0.0,
+      -10.0,
+      87290.0
+    ],
+    "nodata": -9999.0,
+    "is_tiled": true,
+    "overviews": [
+      2,
+      4,
+      8,
+      16,
+      31
+    ],
+    "image_structure_layout": "PURE_PYTHON_STRUCTURAL_COG_QA",
+    "band_count_pass": true,
+    "crs_pass": true,
+    "cog_delivery_qa": "PASS",
+    "sha256": "31429e337e9babd1e81602ed5d44caf2ccb235d7212ac2b14f1dda123b590d08"
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "30F": [
+    {
+      "filename": "30F_ANALYSIS_DF_B12_RECOVERED_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_ANALYSIS_DF_B12_RECOVERED_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2025871
+    },
+    {
+      "filename": "30F_ANALYSIS_DF_B12_RECOVERED_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_ANALYSIS_DF_B12_RECOVERED_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1064701
+    },
+    {
+      "filename": "30F_B13_DERIVED_CONTEXT_QC_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B13_DERIVED_CONTEXT_QC_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1008
+    },
+    {
+      "filename": "30F_B13_FEATURE_SET_SUMMARY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B13_FEATURE_SET_SUMMARY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 272
+    },
+    {
+      "filename": "30F_B13_FEATURE_SETS_V1.json",
+      "relative_path": "checkpoints_30F\\30F_B13_FEATURE_SETS_V1.json",
+      "extension": ".json",
+      "size_bytes": 3629
+    },
+    {
+      "filename": "30F_B14B_BENCHMARK_SUMMARY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_BENCHMARK_SUMMARY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1136
+    },
+    {
+      "filename": "30F_B14B_CLASS_ERROR_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_CLASS_ERROR_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1318
+    },
+    {
+      "filename": "30F_B14B_FOLD_METRICS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_FOLD_METRICS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 5014
+    },
+    {
+      "filename": "30F_B14B_INCREMENT_PER_FOLD_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_INCREMENT_PER_FOLD_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2137
+    },
+    {
+      "filename": "30F_B14B_INCREMENT_SUMMARY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_INCREMENT_SUMMARY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 554
+    },
+    {
+      "filename": "30F_B14B_OOF_METRICS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_OOF_METRICS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 529
+    },
+    {
+      "filename": "30F_B14B_OOF_PREDICTIONS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14B_OOF_PREDICTIONS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 181406
+    },
+    {
+      "filename": "30F_B14B_OOF_PREDICTIONS_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B14B_OOF_PREDICTIONS_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 128745
+    },
+    {
+      "filename": "30F_B14C_CHIRPS_CONTEXT_HOLDOUT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14C_CHIRPS_CONTEXT_HOLDOUT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 3911
+    },
+    {
+      "filename": "30F_B14C_CHIRPS_GLOBAL_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14C_CHIRPS_GLOBAL_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 571
+    },
+    {
+      "filename": "30F_B14C_CONTEXT_HOLDOUT_SUMMARY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14C_CONTEXT_HOLDOUT_SUMMARY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 877
+    },
+    {
+      "filename": "30F_B14C_ERA5_ETPET_CONTEXT_HOLDOUT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14C_ERA5_ETPET_CONTEXT_HOLDOUT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1517
+    },
+    {
+      "filename": "30F_B14C_ERA5_ETPET_GLOBAL_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B14C_ERA5_ETPET_GLOBAL_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 572
+    },
+    {
+      "filename": "30F_B15_30G_ATTRIBUTE_CONTRACT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B15_30G_ATTRIBUTE_CONTRACT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 806
+    },
+    {
+      "filename": "30F_B15_ARCHITECTURE_DECISIONS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B15_ARCHITECTURE_DECISIONS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1039
+    },
+    {
+      "filename": "30F_B15_ARCHITECTURE_MANIFEST_V1.json",
+      "relative_path": "checkpoints_30F\\30F_B15_ARCHITECTURE_MANIFEST_V1.json",
+      "extension": ".json",
+      "size_bytes": 1377
+    },
+    {
+      "filename": "30F_B15_EVIDENCE_DECISION_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B15_EVIDENCE_DECISION_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 741
+    },
+    {
+      "filename": "30F_B15_PRODUCTION_ROLE_REGISTRY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B15_PRODUCTION_ROLE_REGISTRY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1606
+    },
+    {
+      "filename": "30F_B16_ATTRIBUTE_DISTRIBUTION_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B16_ATTRIBUTE_DISTRIBUTION_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1308
+    },
+    {
+      "filename": "30F_B16_CHIRPS_CONTEXT_CLASSIFICATION_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B16_CHIRPS_CONTEXT_CLASSIFICATION_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1193
+    },
+    {
+      "filename": "30F_B16_CODEBOOK_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B16_CODEBOOK_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2638
+    },
+    {
+      "filename": "30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2379614
+    },
+    {
+      "filename": "30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1358812
+    },
+    {
+      "filename": "30F_B16_CONTEXT_FRAMEWORK_MANIFEST_V1.json",
+      "relative_path": "checkpoints_30F\\30F_B16_CONTEXT_FRAMEWORK_MANIFEST_V1.json",
+      "extension": ".json",
+      "size_bytes": 2264
+    },
+    {
+      "filename": "30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2658630
+    },
+    {
+      "filename": "30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1495672
+    },
+    {
+      "filename": "30F_B17B_SPATIAL_PATTERN_QC_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B17B_SPATIAL_PATTERN_QC_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 697
+    },
+    {
+      "filename": "30F_B18A_CONTEXT_ROLE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18A_CONTEXT_ROLE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 647
+    },
+    {
+      "filename": "30F_B18A_PARAMETER_PRIORITY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18A_PARAMETER_PRIORITY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2696
+    },
+    {
+      "filename": "30F_B18A_PRIORITY_SUMMARY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18A_PRIORITY_SUMMARY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 327
+    },
+    {
+      "filename": "30F_B18B_CANDIDATE_REDUNDANCY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18B_CANDIDATE_REDUNDANCY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2933
+    },
+    {
+      "filename": "30F_B18B_FAMILY_AUDIT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18B_FAMILY_AUDIT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 244
+    },
+    {
+      "filename": "30F_B18B_FOLD_STABILITY_DETAIL_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18B_FOLD_STABILITY_DETAIL_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 3358
+    },
+    {
+      "filename": "30F_B18B_SPATIAL_STABILITY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18B_SPATIAL_STABILITY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2279
+    },
+    {
+      "filename": "30F_B18C_AOI01_WALL_TO_WALL_CALIBRATION_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18C_AOI01_WALL_TO_WALL_CALIBRATION_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1467
+    },
+    {
+      "filename": "30F_B18C_FAMILY_WEIGHTS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18C_FAMILY_WEIGHTS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 263
+    },
+    {
+      "filename": "30F_B18C_FUSION_CALIBRATION_MANIFEST_V1.json",
+      "relative_path": "checkpoints_30F\\30F_B18C_FUSION_CALIBRATION_MANIFEST_V1.json",
+      "extension": ".json",
+      "size_bytes": 3056
+    },
+    {
+      "filename": "30F_B18C_FUSION_SAMPLE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18C_FUSION_SAMPLE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2713933
+    },
+    {
+      "filename": "30F_B18C_FUSION_SAMPLE_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B18C_FUSION_SAMPLE_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1547057
+    },
+    {
+      "filename": "30F_B18C_MODIFIER_CLASS_SUMMARY_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18C_MODIFIER_CLASS_SUMMARY_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 418
+    },
+    {
+      "filename": "30F_B18C_MODIFIER_FOLD_QC_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18C_MODIFIER_FOLD_QC_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 384
+    },
+    {
+      "filename": "30F_B18C_NORMALIZATION_CLIPPING_QC_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18C_NORMALIZATION_CLIPPING_QC_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 516
+    },
+    {
+      "filename": "30F_B18D1_CLASS_RANGE_OVERLAP_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_CLASS_RANGE_OVERLAP_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 202
+    },
+    {
+      "filename": "30F_B18D1_CORE_CLASS_RISK_AUDIT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_CORE_CLASS_RISK_AUDIT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 302
+    },
+    {
+      "filename": "30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2881959
+    },
+    {
+      "filename": "30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1641997
+    },
+    {
+      "filename": "30F_B18D1_ORDINAL_QA_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_ORDINAL_QA_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 288
+    },
+    {
+      "filename": "30F_B18D1_SCORE_BY_CLASS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_SCORE_BY_CLASS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1372
+    },
+    {
+      "filename": "30F_B18D1_SCORE_DISPLACEMENT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_SCORE_DISPLACEMENT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 668
+    },
+    {
+      "filename": "30F_B18D1_SPATIAL_FOLD_QA_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D1_SPATIAL_FOLD_QA_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 1682
+    },
+    {
+      "filename": "30F_B18D2B_CLASS_EVIDENCE_PROFILE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D2B_CLASS_EVIDENCE_PROFILE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 861
+    },
+    {
+      "filename": "30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 169218
+    },
+    {
+      "filename": "30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 436703
+    },
+    {
+      "filename": "30F_B18D2B_PERIOD_GATE_AUDIT_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D2B_PERIOD_GATE_AUDIT_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 240
+    },
+    {
+      "filename": "30F_B18D2B_RAW_FINAL_CHANGED_TRANSITIONS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18D2B_RAW_FINAL_CHANGED_TRANSITIONS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 47
+    },
+    {
+      "filename": "30F_B18E_CLASS_TRANSITIONS_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18E_CLASS_TRANSITIONS_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 243
+    },
+    {
+      "filename": "30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2974211
+    },
+    {
+      "filename": "30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1862434
+    },
+    {
+      "filename": "30F_FROZEN_SAMPLE_IDS_B03_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_FROZEN_SAMPLE_IDS_B03_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 105911
+    },
+    {
+      "filename": "30F_MODEL_DF_B13_V1.csv",
+      "relative_path": "checkpoints_30F\\30F_MODEL_DF_B13_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 2337855
+    },
+    {
+      "filename": "30F_MODEL_DF_B13_V1.pkl",
+      "relative_path": "checkpoints_30F\\30F_MODEL_DF_B13_V1.pkl",
+      "extension": ".pkl",
+      "size_bytes": 1202646
+    },
+    {
+      "filename": "30F_RECOVERY_MANIFEST_V1.json",
+      "relative_path": "checkpoints_30F\\30F_RECOVERY_MANIFEST_V1.json",
+      "extension": ".json",
+      "size_bytes": 3762
+    },
+    {
+      "filename": "30F_B17B_MAP01_CORE_RISK_SAMPLE_V1.png",
+      "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP01_CORE_RISK_SAMPLE_V1.png",
+      "extension": ".png",
+      "size_bytes": 352666
+    },
+    {
+      "filename": "30F_B17B_MAP02_RAINFALL_CONTEXT_SAMPLE_V1.png",
+      "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP02_RAINFALL_CONTEXT_SAMPLE_V1.png",
+      "extension": ".png",
+      "size_bytes": 188887
+    },
+    {
+      "filename": "30F_B17B_MAP03_AGE_CONTEXT_SAMPLE_V1.png",
+      "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP03_AGE_CONTEXT_SAMPLE_V1.png",
+      "extension": ".png",
+      "size_bytes": 222403
+    },
+    {
+      "filename": "30F_B17B_MAP04_WARNING_SAMPLE_V1.png",
+      "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP04_WARNING_SAMPLE_V1.png",
+      "extension": ".png",
+      "size_bytes": 172115
+    },
+    {
+      "filename": "30F_B17C_OUTPUT3_CONDITION_CLASS_WALL_TO_WALL_V1.png",
+      "relative_path": "checkpoints_30F\\B17C_wall_to_wall\\30F_B17C_OUTPUT3_CONDITION_CLASS_WALL_TO_WALL_V1.png",
+      "extension": ".png",
+      "size_bytes": 306450
+    }
+  ],
+  "30G": [
+    {
+      "filename": "30G_A_INTEGRATED_CLASS_AREA_V1.csv",
+      "relative_path": "checkpoints_30G\\30G_A_INTEGRATED_CLASS_AREA_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 195
+    },
+    {
+      "filename": "30G_A_INTEGRATED_CLASS_WALL_TO_WALL_V1.png",
+      "relative_path": "checkpoints_30G\\30G_A_INTEGRATED_CLASS_WALL_TO_WALL_V1.png",
+      "extension": ".png",
+      "size_bytes": 310434
+    },
+    {
+      "filename": "30G_A_TRANSITION_AREA_V1.csv",
+      "relative_path": "checkpoints_30G\\30G_A_TRANSITION_AREA_V1.csv",
+      "extension": ".csv",
+      "size_bytes": 458
+    },
+    {
+      "filename": "30G_C_FINAL_CLASS_AREA_CANONICAL.csv",
+      "relative_path": "checkpoints_30G\\30G_C_FINAL_CLASS_AREA_CANONICAL.csv",
+      "extension": ".csv",
+      "size_bytes": 196
+    },
+    {
+      "filename": "30G_C_FINAL_GUARDRAIL_QA.csv",
+      "relative_path": "checkpoints_30G\\30G_C_FINAL_GUARDRAIL_QA.csv",
+      "extension": ".csv",
+      "size_bytes": 222
+    },
+    {
+      "filename": "30G_C_FINAL_TRANSITION_AREA_CANONICAL.csv",
+      "relative_path": "checkpoints_30G\\30G_C_FINAL_TRANSITION_AREA_CANONICAL.csv",
+      "extension": ".csv",
+      "size_bytes": 399
+    }
+  ],
+  "30H": [
+    {
+      "filename": "30H_BAND_DICTIONARY.json",
+      "relative_path": "checkpoints_30H\\30H_BAND_DICTIONARY.json",
+      "extension": ".json",
+      "size_bytes": 1222
+    },
+    {
+      "filename": "30H_FINAL_CLASS_AREA.csv",
+      "relative_path": "checkpoints_30H\\30H_FINAL_CLASS_AREA.csv",
+      "extension": ".csv",
+      "size_bytes": 316
+    },
+    {
+      "filename": "30H_FINAL_MAP.png",
+      "relative_path": "checkpoints_30H\\30H_FINAL_MAP.png",
+      "extension": ".png",
+      "size_bytes": 1267615
+    },
+    {
+      "filename": "30H_FINAL_TRANSITION_AREA.csv",
+      "relative_path": "checkpoints_30H\\30H_FINAL_TRANSITION_AREA.csv",
+      "extension": ".csv",
+      "size_bytes": 901
+    },
+    {
+      "filename": "30H_FREEZE_MANIFEST.json",
+      "relative_path": "checkpoints_30H\\30H_FREEZE_MANIFEST.json",
+      "extension": ".json",
+      "size_bytes": 1860
+    },
+    {
+      "filename": "30H_LEGEND.json",
+      "relative_path": "checkpoints_30H\\30H_LEGEND.json",
+      "extension": ".json",
+      "size_bytes": 1178
+    },
+    {
+      "filename": "30H_MAP_RAW.png",
+      "relative_path": "checkpoints_30H\\30H_MAP_RAW.png",
+      "extension": ".png",
+      "size_bytes": 305151
+    },
+    {
+      "filename": "30H_PRODUCT_SUMMARY.json",
+      "relative_path": "checkpoints_30H\\30H_PRODUCT_SUMMARY.json",
+      "extension": ".json",
+      "size_bytes": 2163
+    },
+    {
+      "filename": "30H_PRODUCT_SUMMARY.md",
+      "relative_path": "checkpoints_30H\\30H_PRODUCT_SUMMARY.md",
+      "extension": ".md",
+      "size_bytes": 1100
+    }
+  ]
+}

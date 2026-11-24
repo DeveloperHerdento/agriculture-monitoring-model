@@ -1,0 +1,14 @@
+{
+  "class_cog": {
+    "task_id": "GZBZ2BN75UVDZT5ARW76O4U6",
+    "state": "COMPLETED",
+    "description": "SIAK_AOI01_O3_CLASS_COG_2025",
+    "error_message": null
+  },
+  "metrics_cog": {
+    "task_id": "TWCREHXWHXN6YEP7BGXHSQ5U",
+    "state": "COMPLETED",
+    "description": "SIAK_AOI01_O3_METRICS_COG_2025",
+    "error_message": null
+  }
+}

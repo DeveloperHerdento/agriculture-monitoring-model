@@ -1,0 +1,10 @@
+# The palm-oil packages are kept with their original internal layout (the runners and notebooks
+# resolve sibling folders), so their data files sit next to the code. Only code, configs and
+# docs are versioned; data and generated output stay local (HGS-STD 11.1).
+*.csv
+*.geojson
+*.pkl
+*.png
+*.html
+*.docx
+*_SNAPSHOT_*.ipynb

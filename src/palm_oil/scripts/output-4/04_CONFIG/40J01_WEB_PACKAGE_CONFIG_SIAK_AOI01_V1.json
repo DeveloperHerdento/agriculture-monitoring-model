@@ -1,0 +1,19 @@
+{
+  "aoi_id": "SIAK_AOI01",
+  "display_name": "SIAK_AOI01",
+  "monitoring_year": 2025,
+  "grid_size_m": 500,
+  "expected_asu_count": 820,
+  "expected_palm_area_ha": 13867.099001884668,
+  "package_version": "v1",
+  "source_geometry": "40B03A_FINAL_ASU_500M_EXACT_SIAK_AOI01_V1.geojson",
+  "source_attributes": "40I01_FINAL_OUTPUT4_DELIVERY_MASTER_820_SIAK_AOI01_V1.csv",
+  "source_class_summary": "40I02B_WEB_DISPLAY_CONTRACT_SIAK_AOI01_V1\\40I02B_CLASS_SUMMARY_WITH_PRODUCTIVITY_SIAK_AOI01_V1.csv",
+  "source_legend": "40I02B_WEB_DISPLAY_CONTRACT_SIAK_AOI01_V1\\40I02B_LEGEND_SIAK_AOI01_V1.json",
+  "source_popup_contract": "40I02B_WEB_DISPLAY_CONTRACT_SIAK_AOI01_V1\\40I02B_POPUP_FIELD_CONTRACT_SIAK_AOI01_V1.json",
+  "default_show_asu_boundaries": false,
+  "class0_rendered": true,
+  "outside_palm_domain": "transparent/noData",
+  "model_scope": "Productivity Potential & Management Priority",
+  "local_ffb_validation": false
+}

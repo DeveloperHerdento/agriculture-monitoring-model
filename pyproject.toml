@@ -1,0 +1,37 @@
+# Installable library: `pip install -e .` (local) or
+# `pip install "agriculture-monitoring-model @ git+https://github.com/DeveloperHerdento/agriculture-monitoring-model.git@v0.1.0"`.
+# Library deps are ranges so the web backend's == pins win; the notebook environment is pinned in requirements.txt.
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agriculture-monitoring-model"
+version = "0.1.0"
+description = "Palm oil and paddy monitoring models on Google Earth Engine (RATRA agriculture)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "earthengine-api>=1.7",  # ee: composites and downloads
+    "numpy>=2.0",            # local array rules
+    "scipy>=1.13",           # interpolation, ndimage, stats
+    "rasterio>=1.4",         # COG read/write, rasterize, sieve
+    "shapely>=2.0",          # palm geometries
+    "requests>=2.31",        # GEE download URLs
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["agriculture_monitoring_model*"]  # src/palm_oil/scripts are delivered runners, not part of the library
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["notebooks", "src/palm_oil/scripts"]  # delivered/exploratory code, linted when moved to src/
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

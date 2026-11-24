@@ -1,0 +1,119 @@
+{
+  "package_name": "OUTPUT3_COMPLETE_PACKAGE",
+  "product": "Output 3 - Plantation Condition & Inspection Priority",
+  "aoi_id": "SIAK_AOI01",
+  "reference_year": 2025,
+  "created_at_local": "2026-08-13T11:38:58.208715",
+  "architecture": "Python/Jupyter master workflow + Earth Engine server-side backend",
+  "analytical_status": "FROZEN",
+  "field_validation": "NOT_AVAILABLE",
+  "canonical_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "process_stages": [
+    {
+      "stage": "30A",
+      "name": "Upstream Setup and Source Contract",
+      "role": "AOI, upstream source registry, preprocessing contract and core input preparation.",
+      "main_storage": "GEE assets + scripts/notebooks",
+      "status": "COMPLETED_UPSTREAM",
+      "final_package_section": "03_PROCESS_30A_30E"
+    },
+    {
+      "stage": "30B",
+      "name": "Baseline and Monitoring Stacks",
+      "role": "Period-matched baseline and 2025 monitoring feature stacks including optical/radar evidence.",
+      "main_storage": "GEE assets",
+      "status": "COMPLETED",
+      "final_package_section": "03_PROCESS_30A_30E"
+    },
+    {
+      "stage": "30C",
+      "name": "Temporal Anomaly",
+      "role": "Period anomaly layers derived from matched baseline versus monitoring evidence.",
+      "main_storage": "GEE assets",
+      "status": "COMPLETED",
+      "final_package_section": "03_PROCESS_30A_30E"
+    },
+    {
+      "stage": "30D",
+      "name": "Core Condition / Risk",
+      "role": "Core optical-radar condition and inspection-risk product including balanced class rules.",
+      "main_storage": "GEE assets + QA",
+      "status": "COMPLETED_FROZEN_CORE",
+      "final_package_section": "03_PROCESS_30A_30E"
+    },
+    {
+      "stage": "30E",
+      "name": "Contextual Enrichment",
+      "role": "Age, rainfall, atmosphere, ET/PET, terrain, hydrology, soil and soil-water reusable context.",
+      "main_storage": "GEE assets",
+      "status": "COMPLETED",
+      "final_package_section": "03_PROCESS_30A_30E"
+    },
+    {
+      "stage": "30F",
+      "name": "Feature Screening and Calibration",
+      "role": "Correlation/VIF, spatial CV, context ablation, feature selection, family weights, calibration and fusion sensitivity.",
+      "main_storage": "Local Python checkpoints",
+      "status": "COMPLETED_FROZEN",
+      "final_package_section": "04_ANALYSIS_30F"
+    },
+    {
+      "stage": "30G",
+      "name": "Integrated Inspection Priority",
+      "role": "Wall-to-wall F05 contextual integration, evidence-gated class transitions and final QA.",
+      "main_storage": "GEE canonical asset + local QA",
+      "status": "COMPLETED",
+      "final_package_section": "05_INTEGRATION_30G"
+    },
+    {
+      "stage": "30H",
+      "name": "Analytical Freeze",
+      "role": "Final product statistics, class schema, legend, map preview, metadata and freeze manifest.",
+      "main_storage": "Local delivery checkpoints",
+      "status": "COMPLETED_FROZEN",
+      "final_package_section": "06_FREEZE_30H"
+    },
+    {
+      "stage": "30I",
+      "name": "Web Delivery",
+      "role": "COG raster delivery plus metadata, tables, legend and web-development package.",
+      "main_storage": "Google Drive + local delivery package",
+      "status": "COG_EXPORT_IN_PROGRESS",
+      "final_package_section": "07_WEB_DELIVERY_30I"
+    },
+    {
+      "stage": "30J",
+      "name": "Complete Reproducible Package",
+      "role": "Master notebook, reusable AOI runner, complete inventory, provenance, backup and handover.",
+      "main_storage": "Local package + backup destination",
+      "status": "IN_PROGRESS",
+      "final_package_section": "OUTPUT3_COMPLETE_PACKAGE"
+    }
+  ],
+  "inventories": {
+    "gee_assets": "OUTPUT3_COMPLETE_PACKAGE\\02_ASSET_INVENTORY\\OUTPUT3_GEE_ASSET_INVENTORY.csv",
+    "local_files": "OUTPUT3_COMPLETE_PACKAGE\\02_ASSET_INVENTORY\\OUTPUT3_LOCAL_FILE_INVENTORY.csv",
+    "stage_catalog": "OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\OUTPUT3_PROCESS_STAGE_CATALOG.csv"
+  },
+  "configuration": "OUTPUT3_COMPLETE_PACKAGE\\01_CONFIG\\SIAK_AOI01_OUTPUT3_CONFIG.json",
+  "cog_export_status": {
+    "class_cog": {
+      "task_id": "GZBZ2BN75UVDZT5ARW76O4U6",
+      "state": "COMPLETED",
+      "description": "SIAK_AOI01_O3_CLASS_COG_2025",
+      "error_message": null
+    },
+    "metrics_cog": {
+      "task_id": "TWCREHXWHXN6YEP7BGXHSQ5U",
+      "state": "COMPLETED",
+      "description": "SIAK_AOI01_O3_METRICS_COG_2025",
+      "error_message": null
+    }
+  },
+  "remaining_30j_work": [
+    "30J-B_MASTER_PIPELINE_30A_30I",
+    "30J-C_REUSABLE_AOI_RUNNER",
+    "30J-D_DOCUMENTATION_PROVENANCE_BACKUP",
+    "30J-E_FINAL_COMPLETE_PACKAGE"
+  ]
+}

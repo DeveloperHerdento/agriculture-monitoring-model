@@ -1,0 +1,11 @@
+# Model repos are not deployed, so CI also runs on push to main.
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  ci:
+    uses: DeveloperHerdento/.github/.github/workflows/ci-python.yml@v1

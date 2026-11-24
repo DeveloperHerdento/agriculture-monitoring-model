@@ -1,0 +1,16 @@
+{
+  "stage": "30J-D3",
+  "status": "PASS",
+  "created_at": "2026-08-13T12:18:10.312861",
+  "30b_source": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30B_01_BUILD_S2_S1_COMPOSITES.js",
+  "30c_source": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30C_01_BUILD_ALL_ANOMALIES.js",
+  "source_registry_csv": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\02_ASSET_INVENTORY\\OUTPUT3_SOURCE_CODE_REGISTRY.csv",
+  "source_registry_json": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\02_ASSET_INVENTORY\\OUTPUT3_SOURCE_CODE_REGISTRY.json",
+  "validation_report": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\10_ARCHIVE_MANIFEST\\30J_D3_30B_30C_SOURCE_VALIDATION.csv",
+  "readiness_report": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\NEW_AOI_READINESS_FINAL_PREPACKAGE.json",
+  "critical_source_archive_complete": true,
+  "raw_source_to_final_one_click_validated": false,
+  "gee_code_executed": false,
+  "exports_started": false,
+  "model_changed": false
+}

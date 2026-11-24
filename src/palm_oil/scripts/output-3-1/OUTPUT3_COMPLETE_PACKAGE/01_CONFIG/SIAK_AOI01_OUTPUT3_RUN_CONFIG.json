@@ -1,0 +1,41 @@
+{
+  "schema_version": "OUTPUT3_AOI_CONFIG_V2",
+  "project_id": "palm-oil-503202",
+  "aoi_id": "SIAK_AOI01",
+  "reference_year": 2025,
+  "mode": "REPRODUCE",
+  "assets": {
+    "plantation_boundary": "projects/palm-oil-503202/assets/SIAK_AOI01_PLANTATION_BOUNDARY_WEB_WGS84_2025",
+    "core_30d": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30D04_BALANCED_RISK_2025",
+    "age_30e01": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E01_AGE_CONTEXT_V3_2025",
+    "chirps_30e02a": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E02A_CHIRPS_FINAL_2025",
+    "era5_30e02b": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E02B_ERA5LAND_FINAL_2025",
+    "etpet_30e02c": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E02C_ETPET_FINAL_2025",
+    "terrain_30e03a": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E03A_TERRAIN_CORE_2025",
+    "hydrology_30e03b": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E03B_HYDRO_CONTEXT_2025",
+    "soil_30e04a": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E04A_SOIL_CORE_PROFILE_2025",
+    "soil_water_30e04b": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E04B_SOIL_WATER_RETENTION_2025",
+    "canonical_final": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025"
+  },
+  "frozen_model": {
+    "calibration_csv": "checkpoints_30F/30F_B18C_AOI01_WALL_TO_WALL_CALIBRATION_V1.csv",
+    "family_weights_csv": "checkpoints_30F/30F_B18C_FAMILY_WEIGHTS_V1.csv",
+    "fusion_amplitude": 5,
+    "thresholds": {
+      "T12": 12,
+      "T23": 22,
+      "T34": 32
+    },
+    "max_class_change": 1
+  },
+  "execution": {
+    "start_exports": false,
+    "require_qa_before_export": true,
+    "allow_overwrite": false
+  },
+  "scientific_status": {
+    "field_validated": false,
+    "transferability_validated": false,
+    "interpretation": "INSPECTION_PRIORITY_NOT_DIAGNOSIS"
+  }
+}

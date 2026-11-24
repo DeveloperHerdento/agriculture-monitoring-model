@@ -1,0 +1,41 @@
+{
+  "schema_version": "OUTPUT3_AOI_CONFIG_V2",
+  "project_id": "palm-oil-503202",
+  "aoi_id": "CHANGE_ME",
+  "reference_year": 2025,
+  "mode": "TRANSFER_TEST",
+  "assets": {
+    "plantation_boundary": "REQUIRED",
+    "core_30d": "REQUIRED",
+    "age_30e01": "REQUIRED",
+    "chirps_30e02a": "REQUIRED",
+    "era5_30e02b": "REQUIRED",
+    "etpet_30e02c": "REQUIRED",
+    "terrain_30e03a": "REQUIRED",
+    "hydrology_30e03b": "REQUIRED",
+    "soil_30e04a": "REQUIRED",
+    "soil_water_30e04b": "REQUIRED",
+    "canonical_final": null
+  },
+  "frozen_model": {
+    "calibration_csv": "checkpoints_30F/30F_B18C_AOI01_WALL_TO_WALL_CALIBRATION_V1.csv",
+    "family_weights_csv": "checkpoints_30F/30F_B18C_FAMILY_WEIGHTS_V1.csv",
+    "fusion_amplitude": 5,
+    "thresholds": {
+      "T12": 12,
+      "T23": 22,
+      "T34": 32
+    },
+    "max_class_change": 1
+  },
+  "execution": {
+    "start_exports": false,
+    "require_qa_before_export": true,
+    "allow_overwrite": false
+  },
+  "scientific_status": {
+    "field_validated": false,
+    "transferability_validated": false,
+    "interpretation": "INSPECTION_PRIORITY_NOT_DIAGNOSIS"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stage": "30J-B",
+  "status": "PASS",
+  "created_at": "2026-08-13T11:46:52.384842",
+  "master_notebook": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\00_MASTER_PIPELINE\\MASTER_PIPELINE_OUTPUT3.ipynb",
+  "working_notebook_source": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT 3.ipynb",
+  "working_notebook_snapshot": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\10_ARCHIVE_MANIFEST\\OUTPUT3_WORKING_NOTEBOOK_SNAPSHOT_20260813_114651.ipynb",
+  "working_notebook_cell_index": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\10_ARCHIVE_MANIFEST\\OUTPUT3_WORKING_NOTEBOOK_CELL_INDEX.csv",
+  "master_cell_count": 25,
+  "master_code_cells": 12,
+  "master_markdown_cells": 13,
+  "workflow_scope": [
+    "30A",
+    "30B",
+    "30C",
+    "30D",
+    "30E",
+    "30F",
+    "30G",
+    "30H",
+    "30I"
+  ],
+  "architecture": "Hybrid GEE + Python; 30B-30E persistent GEE preprocessing is not duplicated locally.",
+  "exports_started": false,
+  "analytical_model_changed": false,
+  "field_validated": false
+}

@@ -1,0 +1,1022 @@
+[
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\PRODUCT_SUMMARY.md",
+    "filename": "PRODUCT_SUMMARY.md",
+    "extension": ".md",
+    "size_bytes": 1100,
+    "size_mb": 0.001,
+    "sha256": "877c39e829eec76cafeab97bee28572e0c8d236db9db2fe23e224230ee274ace",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\README_WEB_DELIVERY.md",
+    "filename": "README_WEB_DELIVERY.md",
+    "extension": ".md",
+    "size_bytes": 2317,
+    "size_mb": 0.0022,
+    "sha256": "c621ddee99ab449aae13496b9af1b93647e7b459bd4a2ad48fef645a3de079c5",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\WEB_DELIVERY_MANIFEST.json",
+    "filename": "WEB_DELIVERY_MANIFEST.json",
+    "extension": ".json",
+    "size_bytes": 1636,
+    "size_mb": 0.0016,
+    "sha256": "dd03e7d7d885eb6d03f4e83c5203b94b2d2b5af0d713b9a1a449c69a450dd1ec",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\metadata\\O3_BAND_DICTIONARY.json",
+    "filename": "O3_BAND_DICTIONARY.json",
+    "extension": ".json",
+    "size_bytes": 1222,
+    "size_mb": 0.0012,
+    "sha256": "b6237fe5a383d1837bc8b4b9916f891d5ad4e010042f6eecb8422c1fc570d619",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\metadata\\O3_FREEZE_MANIFEST.json",
+    "filename": "O3_FREEZE_MANIFEST.json",
+    "extension": ".json",
+    "size_bytes": 1860,
+    "size_mb": 0.0018,
+    "sha256": "dc13c101661463f09f1d929556588a29d2eae5ee43a648189f61e673b6111913",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\metadata\\O3_GEE_EXPORT_TASKS.json",
+    "filename": "O3_GEE_EXPORT_TASKS.json",
+    "extension": ".json",
+    "size_bytes": 824,
+    "size_mb": 0.0008,
+    "sha256": "5579eb55d601517a22cea7faf54fef07619278441074e453fc37e14ba9ce1f8c",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\metadata\\O3_LEGEND.json",
+    "filename": "O3_LEGEND.json",
+    "extension": ".json",
+    "size_bytes": 1178,
+    "size_mb": 0.0011,
+    "sha256": "84237818e8d3bfbe04108cfaf1d40f847213a152eb17e3435840ebb2a9f5fe3f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\metadata\\O3_PRODUCT_SUMMARY.json",
+    "filename": "O3_PRODUCT_SUMMARY.json",
+    "extension": ".json",
+    "size_bytes": 2163,
+    "size_mb": 0.0021,
+    "sha256": "6fcda06ab77ba58d88c8751ff6919c16a5ea917840884f6dada9d2a0557db067",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\preview\\O3_FINAL_MAP_2025.png",
+    "filename": "O3_FINAL_MAP_2025.png",
+    "extension": ".png",
+    "size_bytes": 1267615,
+    "size_mb": 1.2089,
+    "sha256": "a09a8b6346764005b5b4e16d78edb5881a3456b34c243200152734cb11ff0105",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\qa\\QA_CLASS_AREA_CANONICAL.csv",
+    "filename": "QA_CLASS_AREA_CANONICAL.csv",
+    "extension": ".csv",
+    "size_bytes": 196,
+    "size_mb": 0.0002,
+    "sha256": "fcd98658e5721a89b3090b967f5d022f9813e63c0c184814819af067480783ce",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\qa\\QA_GUARDRAIL_CHECKS.csv",
+    "filename": "QA_GUARDRAIL_CHECKS.csv",
+    "extension": ".csv",
+    "size_bytes": 222,
+    "size_mb": 0.0002,
+    "sha256": "153db259feeecd3855049a7acc17ca131dae6b3138f93df72c938e4e67d053dc",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\qa\\QA_TRANSITION_AREA_CANONICAL.csv",
+    "filename": "QA_TRANSITION_AREA_CANONICAL.csv",
+    "extension": ".csv",
+    "size_bytes": 399,
+    "size_mb": 0.0004,
+    "sha256": "5ab336af9cfc702d140f9753c620fa72527093052359e2df6f4430053d83c399",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\rasters\\PLACE_DOWNLOADED_COG_FILES_HERE.txt",
+    "filename": "PLACE_DOWNLOADED_COG_FILES_HERE.txt",
+    "extension": ".txt",
+    "size_bytes": 163,
+    "size_mb": 0.0002,
+    "sha256": "9ae9bef481a7a0738cd5a12ea6cf94bf86f29d1c1b2e05de47842f232319d948",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\tables\\O3_FINAL_CLASS_AREA_2025.csv",
+    "filename": "O3_FINAL_CLASS_AREA_2025.csv",
+    "extension": ".csv",
+    "size_bytes": 316,
+    "size_mb": 0.0003,
+    "sha256": "7df9123b33674887877215818ead914311c7ac192174cfe23dd725014c7f027a",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "WEB_DELIVERY_OUTPUT3\\tables\\O3_FINAL_CLASS_TRANSITIONS_2025.csv",
+    "filename": "O3_FINAL_CLASS_TRANSITIONS_2025.csv",
+    "extension": ".csv",
+    "size_bytes": 901,
+    "size_mb": 0.0009,
+    "sha256": "221fffb24fd0e8f83d55bdf87a80600fd7f0f58f137bf313aa97a98c451abe47",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_ANALYSIS_DF_B12_RECOVERED_V1.csv",
+    "filename": "30F_ANALYSIS_DF_B12_RECOVERED_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2025871,
+    "size_mb": 1.932,
+    "sha256": "23c48402ceb9ecb2bc3bab9014512763bc8e9deb8511802b2891e5ec0d7482e8",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_ANALYSIS_DF_B12_RECOVERED_V1.pkl",
+    "filename": "30F_ANALYSIS_DF_B12_RECOVERED_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1064701,
+    "size_mb": 1.0154,
+    "sha256": "4cf15ea6c55522be1ad7cb17b9b1c124aca7b7931881b57292256acb83e07c7d",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B13_DERIVED_CONTEXT_QC_V1.csv",
+    "filename": "30F_B13_DERIVED_CONTEXT_QC_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1008,
+    "size_mb": 0.001,
+    "sha256": "cf00e0832bc0e95e66147520c3431c71d6ae12984e9cf67e024d94a35843689a",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B13_FEATURE_SETS_V1.json",
+    "filename": "30F_B13_FEATURE_SETS_V1.json",
+    "extension": ".json",
+    "size_bytes": 3629,
+    "size_mb": 0.0035,
+    "sha256": "01834c4ab3f6535fa729993a7f353007892b6e62bba5c96abd691c30581ab56d",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B13_FEATURE_SET_SUMMARY_V1.csv",
+    "filename": "30F_B13_FEATURE_SET_SUMMARY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 272,
+    "size_mb": 0.0003,
+    "sha256": "d47b828ebb2ac86a9132d1802aa7a5782945f55e0604746491524a246f4ddb0e",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_BENCHMARK_SUMMARY_V1.csv",
+    "filename": "30F_B14B_BENCHMARK_SUMMARY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1136,
+    "size_mb": 0.0011,
+    "sha256": "bd895236937904cbed10e6063f45068c6e65dc1c12082e11c8d0363874359012",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_CLASS_ERROR_V1.csv",
+    "filename": "30F_B14B_CLASS_ERROR_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1318,
+    "size_mb": 0.0013,
+    "sha256": "a58ef6c65ce498924f64aa2d84a61cf29f99cf35ceeab3a5fb8175fc0915a1eb",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_FOLD_METRICS_V1.csv",
+    "filename": "30F_B14B_FOLD_METRICS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 5014,
+    "size_mb": 0.0048,
+    "sha256": "ccb0f81e84f5f022c11888ed94b3557c62df81946d00dc143e930aa8c79d38fb",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_INCREMENT_PER_FOLD_V1.csv",
+    "filename": "30F_B14B_INCREMENT_PER_FOLD_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2137,
+    "size_mb": 0.002,
+    "sha256": "1aa39256cc309af76c1e8ce6b991842bf7a10fb23a02fa97f5437aed7abe8b02",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_INCREMENT_SUMMARY_V1.csv",
+    "filename": "30F_B14B_INCREMENT_SUMMARY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 554,
+    "size_mb": 0.0005,
+    "sha256": "67d7806774897ba06bddd8c79350377d6b8104d29ba9df64009d0051b46561be",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_OOF_METRICS_V1.csv",
+    "filename": "30F_B14B_OOF_METRICS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 529,
+    "size_mb": 0.0005,
+    "sha256": "9712528f3b19cfaa5dc104f5e95fa69509240efa024b9a762c5841a7e45f1b54",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_OOF_PREDICTIONS_V1.csv",
+    "filename": "30F_B14B_OOF_PREDICTIONS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 181406,
+    "size_mb": 0.173,
+    "sha256": "eef1a48f2e40ca449480805ff4911e94b299fd4d4dd2437e2602b46835a11167",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14B_OOF_PREDICTIONS_V1.pkl",
+    "filename": "30F_B14B_OOF_PREDICTIONS_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 128745,
+    "size_mb": 0.1228,
+    "sha256": "f9b69942d2e50a44b611595785ffc64c44ee0be4be11813ed7874ff35a37281a",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14C_CHIRPS_CONTEXT_HOLDOUT_V1.csv",
+    "filename": "30F_B14C_CHIRPS_CONTEXT_HOLDOUT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 3911,
+    "size_mb": 0.0037,
+    "sha256": "69056e7fe7c4d71cb77477e0e3fe610e99ba614b6a10f0dd45bfcd7f8b853442",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14C_CHIRPS_GLOBAL_V1.csv",
+    "filename": "30F_B14C_CHIRPS_GLOBAL_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 571,
+    "size_mb": 0.0005,
+    "sha256": "0644f24fa90b1b17550e1e352efe09da0b9132804f37e58cebeb66c4b42dbb1b",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14C_CONTEXT_HOLDOUT_SUMMARY_V1.csv",
+    "filename": "30F_B14C_CONTEXT_HOLDOUT_SUMMARY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 877,
+    "size_mb": 0.0008,
+    "sha256": "de38ab222ea845b061ccb30818cf0c6f48fdb5416b7eaaed2b1d6e7f54f85dd8",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14C_ERA5_ETPET_CONTEXT_HOLDOUT_V1.csv",
+    "filename": "30F_B14C_ERA5_ETPET_CONTEXT_HOLDOUT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1517,
+    "size_mb": 0.0014,
+    "sha256": "420324c0816d32723b64fac477b98d015d23b85bdeb8e95fc92b225ff1b3428f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B14C_ERA5_ETPET_GLOBAL_V1.csv",
+    "filename": "30F_B14C_ERA5_ETPET_GLOBAL_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 572,
+    "size_mb": 0.0005,
+    "sha256": "79f9e99590bb627b2f85fb7675ba73632bbffe05c62f35eebb0a681df85a445f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B15_30G_ATTRIBUTE_CONTRACT_V1.csv",
+    "filename": "30F_B15_30G_ATTRIBUTE_CONTRACT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 806,
+    "size_mb": 0.0008,
+    "sha256": "3d2147ce08f629008c50ef00ab55a84d7c2d066f5b7916196ae0ff610be5d9a6",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B15_ARCHITECTURE_DECISIONS_V1.csv",
+    "filename": "30F_B15_ARCHITECTURE_DECISIONS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1039,
+    "size_mb": 0.001,
+    "sha256": "83ae101b909b0e246649b9d1e8112038a2ca6881b3bb007bc27b551b075ba40e",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B15_ARCHITECTURE_MANIFEST_V1.json",
+    "filename": "30F_B15_ARCHITECTURE_MANIFEST_V1.json",
+    "extension": ".json",
+    "size_bytes": 1377,
+    "size_mb": 0.0013,
+    "sha256": "ddc55cd75d08eb530be15d46b26a18acbfae8db0f609ed6a70a349b2b0f7031f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B15_EVIDENCE_DECISION_V1.csv",
+    "filename": "30F_B15_EVIDENCE_DECISION_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 741,
+    "size_mb": 0.0007,
+    "sha256": "dcd5c479fa49a3c1c88be70697a4e8b49d2219e436fe990afc4fb1bd6df22943",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B15_PRODUCTION_ROLE_REGISTRY_V1.csv",
+    "filename": "30F_B15_PRODUCTION_ROLE_REGISTRY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1606,
+    "size_mb": 0.0015,
+    "sha256": "7ec0671af5435369b91490d10e91fccc4b8803f7e54be38c0593a5d03f07f4e0",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B16_ATTRIBUTE_DISTRIBUTION_V1.csv",
+    "filename": "30F_B16_ATTRIBUTE_DISTRIBUTION_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1308,
+    "size_mb": 0.0012,
+    "sha256": "f7c024c4f301ee29b2b239c24dc052a0c0473a40372cfbabeaed342f45b7cf31",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B16_CHIRPS_CONTEXT_CLASSIFICATION_V1.csv",
+    "filename": "30F_B16_CHIRPS_CONTEXT_CLASSIFICATION_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1193,
+    "size_mb": 0.0011,
+    "sha256": "05b69973fa647bb1f0c257e22a611b7bf51f18fcfeedbdc482c03774788fd7ab",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B16_CODEBOOK_V1.csv",
+    "filename": "30F_B16_CODEBOOK_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2638,
+    "size_mb": 0.0025,
+    "sha256": "e9af7bd7a1f501dfe88e0c95bd085e718d8e05333342355dfea23ada0ab0a25a",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.csv",
+    "filename": "30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2379614,
+    "size_mb": 2.2694,
+    "sha256": "57860ae2caec11cb97bd3087b39d685aa74a2a9380cecde020b08e9132d4ff6f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.pkl",
+    "filename": "30F_B16_CONTEXT_ENRICHED_SAMPLE_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1358812,
+    "size_mb": 1.2959,
+    "sha256": "dc96ce8b7e766730f2218ee327818401b66030ecfd0c2e8f87b7078ce52d8321",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B16_CONTEXT_FRAMEWORK_MANIFEST_V1.json",
+    "filename": "30F_B16_CONTEXT_FRAMEWORK_MANIFEST_V1.json",
+    "extension": ".json",
+    "size_bytes": 2264,
+    "size_mb": 0.0022,
+    "sha256": "2bda469312d341f5cbc57d751ece1b01b0e4ac9e80623792a2256614b4457e9d",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.csv",
+    "filename": "30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2658630,
+    "size_mb": 2.5355,
+    "sha256": "bbd1a14b9226a48889b5abd805294caa880dccbe741fbc7ed89a3bee440e0219",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.pkl",
+    "filename": "30F_B17A_SPATIAL_REJOIN_SAMPLE_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1495672,
+    "size_mb": 1.4264,
+    "sha256": "dca153ca367d9f9e2c32c8c87b445b42e57fc2a47faf8fcd0b62135c8af963c0",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B17B_SPATIAL_PATTERN_QC_V1.csv",
+    "filename": "30F_B17B_SPATIAL_PATTERN_QC_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 697,
+    "size_mb": 0.0007,
+    "sha256": "ad9fc82974dde5670868caae9163c5b91797f4a2b407545e778854d136322196",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18A_CONTEXT_ROLE_V1.csv",
+    "filename": "30F_B18A_CONTEXT_ROLE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 647,
+    "size_mb": 0.0006,
+    "sha256": "2aae53596ddf1e5f1026a22923b800bd0273a8ebd2a57037ec62f8dff7d037d1",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18A_PARAMETER_PRIORITY_V1.csv",
+    "filename": "30F_B18A_PARAMETER_PRIORITY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2696,
+    "size_mb": 0.0026,
+    "sha256": "17a217b4aa2a312824da6bce36f9a129c61af1c35a889a176e2461375d3a112f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18A_PRIORITY_SUMMARY_V1.csv",
+    "filename": "30F_B18A_PRIORITY_SUMMARY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 327,
+    "size_mb": 0.0003,
+    "sha256": "3e305d46eb065ed4df3f311d2e4495eea8bcff2924d18443d1352dc3b6624ce7",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18B_CANDIDATE_REDUNDANCY_V1.csv",
+    "filename": "30F_B18B_CANDIDATE_REDUNDANCY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2933,
+    "size_mb": 0.0028,
+    "sha256": "3cd5252233e9ba98f16a3a19cd1277c09003c3c423cdfc602fa802057c3f543e",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18B_FAMILY_AUDIT_V1.csv",
+    "filename": "30F_B18B_FAMILY_AUDIT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 244,
+    "size_mb": 0.0002,
+    "sha256": "91ae9560b43f5b2b498937fbef1cb100191dcae7958d1f42457072d445fd4bcb",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18B_FOLD_STABILITY_DETAIL_V1.csv",
+    "filename": "30F_B18B_FOLD_STABILITY_DETAIL_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 3358,
+    "size_mb": 0.0032,
+    "sha256": "d4449a62798f0da0026579d675d59a804c66d159c38608b46499cc584d137a3a",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18B_SPATIAL_STABILITY_V1.csv",
+    "filename": "30F_B18B_SPATIAL_STABILITY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2279,
+    "size_mb": 0.0022,
+    "sha256": "376f44b61bcfdce6ff39d92f85b2af370251f32721bbb88e1ba727e75070d4ba",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_AOI01_WALL_TO_WALL_CALIBRATION_V1.csv",
+    "filename": "30F_B18C_AOI01_WALL_TO_WALL_CALIBRATION_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1467,
+    "size_mb": 0.0014,
+    "sha256": "685e4a61945b21bb71a313563921ad17215b0e7447aae6ff172efe9356a8912e",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_FAMILY_WEIGHTS_V1.csv",
+    "filename": "30F_B18C_FAMILY_WEIGHTS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 263,
+    "size_mb": 0.0003,
+    "sha256": "68670a3b4f7e388693cf8d46af7ff7425add9aa92cef8bd49e49d5913ed8b8af",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_FUSION_CALIBRATION_MANIFEST_V1.json",
+    "filename": "30F_B18C_FUSION_CALIBRATION_MANIFEST_V1.json",
+    "extension": ".json",
+    "size_bytes": 3056,
+    "size_mb": 0.0029,
+    "sha256": "dd7e44cc7f5647ab4e118bef35be7f44edb784f168caec56d7a909018b784cd7",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_FUSION_SAMPLE_V1.csv",
+    "filename": "30F_B18C_FUSION_SAMPLE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2713933,
+    "size_mb": 2.5882,
+    "sha256": "66b9d5e0611c8166762623aee70980a0668e266a160158631de840e5abc79b75",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_FUSION_SAMPLE_V1.pkl",
+    "filename": "30F_B18C_FUSION_SAMPLE_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1547057,
+    "size_mb": 1.4754,
+    "sha256": "83ba83a5104b605d4d062cb41cfb64d349684780d2f91c38f61b1b57b2e7aab1",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_MODIFIER_CLASS_SUMMARY_V1.csv",
+    "filename": "30F_B18C_MODIFIER_CLASS_SUMMARY_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 418,
+    "size_mb": 0.0004,
+    "sha256": "57bcda0d808d67d4f0b80c85d2b45e517382dd9c03caa988c9459b70ae573032",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_MODIFIER_FOLD_QC_V1.csv",
+    "filename": "30F_B18C_MODIFIER_FOLD_QC_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 384,
+    "size_mb": 0.0004,
+    "sha256": "0d0ce45d641163481ab1d2de979b304e3e97c6671273b506c133080bea347e49",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18C_NORMALIZATION_CLIPPING_QC_V1.csv",
+    "filename": "30F_B18C_NORMALIZATION_CLIPPING_QC_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 516,
+    "size_mb": 0.0005,
+    "sha256": "ade35cec3601bb873291602facb6aa3d01a123bd5b729e350d0f367ddd9bdaef",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_CLASS_RANGE_OVERLAP_V1.csv",
+    "filename": "30F_B18D1_CLASS_RANGE_OVERLAP_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 202,
+    "size_mb": 0.0002,
+    "sha256": "f2b0b3e89da09046ddc92f64ef88476b8f592792954c39a38d6a0332d1eade24",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_CORE_CLASS_RISK_AUDIT_V1.csv",
+    "filename": "30F_B18D1_CORE_CLASS_RISK_AUDIT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 302,
+    "size_mb": 0.0003,
+    "sha256": "6f671c77ec3315e022e3f87ab43544b86e44311a9d495c281e7a2ba41e693b7b",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.csv",
+    "filename": "30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2881959,
+    "size_mb": 2.7485,
+    "sha256": "3f18e4e4daa936d98f55c229f19403cd093c6af6a9ebf9cd182a293535d16dff",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.pkl",
+    "filename": "30F_B18D1_FUSION_SENSITIVITY_SAMPLE_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1641997,
+    "size_mb": 1.5659,
+    "sha256": "2982c5aa38e20f1d4c70d09863a5fd8aa905fd346a5c8ce463014b72549d9ad7",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_ORDINAL_QA_V1.csv",
+    "filename": "30F_B18D1_ORDINAL_QA_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 288,
+    "size_mb": 0.0003,
+    "sha256": "41b097138c08ed910ea4c09e8fa9e7ffe7cbf33c8a74d68b6f0b79b2c542c1a7",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_SCORE_BY_CLASS_V1.csv",
+    "filename": "30F_B18D1_SCORE_BY_CLASS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1372,
+    "size_mb": 0.0013,
+    "sha256": "96d1879a58be994aafffaa3eb65a3e047b0c99aba63b2ba99b47398feb15a1d2",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_SCORE_DISPLACEMENT_V1.csv",
+    "filename": "30F_B18D1_SCORE_DISPLACEMENT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 668,
+    "size_mb": 0.0006,
+    "sha256": "9cb3691c5a283ca3413bdd1ac2851f28108861ca07d116efed4eabe2f61827ef",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D1_SPATIAL_FOLD_QA_V1.csv",
+    "filename": "30F_B18D1_SPATIAL_FOLD_QA_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 1682,
+    "size_mb": 0.0016,
+    "sha256": "55a035f6d042c6bba931f53043c72b9fc5abe276750a861590108255275e3531",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D2B_CLASS_EVIDENCE_PROFILE_V1.csv",
+    "filename": "30F_B18D2B_CLASS_EVIDENCE_PROFILE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 861,
+    "size_mb": 0.0008,
+    "sha256": "0ae1212f6d30d52c5e4ad553bf5958e57cf4a20947f8c1853f18aa77f121a9b5",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.csv",
+    "filename": "30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 169218,
+    "size_mb": 0.1614,
+    "sha256": "cb9cccf59557537afffc6da739c321b391bcea03af8f93586c2a6c0875211e63",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.pkl",
+    "filename": "30F_B18D2B_CORE_EVIDENCE_SAMPLE_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 436703,
+    "size_mb": 0.4165,
+    "sha256": "f6c3ff680e68e736f5156837e1b0e51de07f328956082a84daaa9b1a62ebbdde",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D2B_PERIOD_GATE_AUDIT_V1.csv",
+    "filename": "30F_B18D2B_PERIOD_GATE_AUDIT_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 240,
+    "size_mb": 0.0002,
+    "sha256": "2ae589530e7c6fd9f540aa3494581668c7cb0ff56405bc27319008def1d80ad6",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18D2B_RAW_FINAL_CHANGED_TRANSITIONS_V1.csv",
+    "filename": "30F_B18D2B_RAW_FINAL_CHANGED_TRANSITIONS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 47,
+    "size_mb": 0.0,
+    "sha256": "49e646af10ce23d3020e7b713488473a242b1af64f95f32d568aa0a54ef94c77",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18E_CLASS_TRANSITIONS_V1.csv",
+    "filename": "30F_B18E_CLASS_TRANSITIONS_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 243,
+    "size_mb": 0.0002,
+    "sha256": "d0c42c2c8ad6ac36957b273b643ba9222d92358376dfbb68db01ce5774b20f19",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.csv",
+    "filename": "30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2974211,
+    "size_mb": 2.8364,
+    "sha256": "eb0944c614b7311d8a112a953ba17dae3ff1dfc50b1d621658f972be0214667f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.pkl",
+    "filename": "30F_B18E_INTEGRATED_CLASS_CANDIDATE_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1862434,
+    "size_mb": 1.7762,
+    "sha256": "6d235e449178f7bcb77e4ec04e9921e1a3f844a78f8887822c10816d18b95268",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_FROZEN_SAMPLE_IDS_B03_V1.csv",
+    "filename": "30F_FROZEN_SAMPLE_IDS_B03_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 105911,
+    "size_mb": 0.101,
+    "sha256": "e5e8d65258d794a928a11ef6030bee7cf038505e2fc859d84c0fe443a493cd69",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_MODEL_DF_B13_V1.csv",
+    "filename": "30F_MODEL_DF_B13_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 2337855,
+    "size_mb": 2.2296,
+    "sha256": "832105bca850bee6aeba7513c5be05a545e479f21a9ee55668ba17ddc2e492b0",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_MODEL_DF_B13_V1.pkl",
+    "filename": "30F_MODEL_DF_B13_V1.pkl",
+    "extension": ".pkl",
+    "size_bytes": 1202646,
+    "size_mb": 1.1469,
+    "sha256": "f2859afa1a2322480e2c4aa0e797895b03eeb39bbe6392d48014963fef1ff2c2",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\30F_RECOVERY_MANIFEST_V1.json",
+    "filename": "30F_RECOVERY_MANIFEST_V1.json",
+    "extension": ".json",
+    "size_bytes": 3762,
+    "size_mb": 0.0036,
+    "sha256": "f8ae2def07f7441d31d3d37a7716ca6633e4f516ca485700b62834317da13f9f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP01_CORE_RISK_SAMPLE_V1.png",
+    "filename": "30F_B17B_MAP01_CORE_RISK_SAMPLE_V1.png",
+    "extension": ".png",
+    "size_bytes": 352666,
+    "size_mb": 0.3363,
+    "sha256": "6ee8d73b1518090d730ffc4a054f34b619f0b7990d04d459b16d0bcb8b98a5d1",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP02_RAINFALL_CONTEXT_SAMPLE_V1.png",
+    "filename": "30F_B17B_MAP02_RAINFALL_CONTEXT_SAMPLE_V1.png",
+    "extension": ".png",
+    "size_bytes": 188887,
+    "size_mb": 0.1801,
+    "sha256": "f733549d69f92e8f0a95985875127ff64e3a39e118b42538404b3c7eb72ab51d",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP03_AGE_CONTEXT_SAMPLE_V1.png",
+    "filename": "30F_B17B_MAP03_AGE_CONTEXT_SAMPLE_V1.png",
+    "extension": ".png",
+    "size_bytes": 222403,
+    "size_mb": 0.2121,
+    "sha256": "dd94adaae49e8d0f26a1085d259178e818a1a49d075becf366a20cb0da78eeaa",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\B17B_maps\\30F_B17B_MAP04_WARNING_SAMPLE_V1.png",
+    "filename": "30F_B17B_MAP04_WARNING_SAMPLE_V1.png",
+    "extension": ".png",
+    "size_bytes": 172115,
+    "size_mb": 0.1641,
+    "sha256": "048b3fcfd70c238b81ed1a324c1452f9de94d4daf289a75d561799a02bf2b90b",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30F\\B17C_wall_to_wall\\30F_B17C_OUTPUT3_CONDITION_CLASS_WALL_TO_WALL_V1.png",
+    "filename": "30F_B17C_OUTPUT3_CONDITION_CLASS_WALL_TO_WALL_V1.png",
+    "extension": ".png",
+    "size_bytes": 306450,
+    "size_mb": 0.2923,
+    "sha256": "a353a4a302efc7b3743cfa0dc3d4d088229d441df87cbf5540c491b11d4c2988",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30G\\30G_A_INTEGRATED_CLASS_AREA_V1.csv",
+    "filename": "30G_A_INTEGRATED_CLASS_AREA_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 195,
+    "size_mb": 0.0002,
+    "sha256": "8f8a137486ecd505cad130d4252067b65d5fe9daf0cb59a0713bd7a7f5e9273c",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30G\\30G_A_INTEGRATED_CLASS_WALL_TO_WALL_V1.png",
+    "filename": "30G_A_INTEGRATED_CLASS_WALL_TO_WALL_V1.png",
+    "extension": ".png",
+    "size_bytes": 310434,
+    "size_mb": 0.2961,
+    "sha256": "f82ac5e663968666af13bb427478c0f5f85e0e68a5a10360761d0f81789ec0cc",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30G\\30G_A_TRANSITION_AREA_V1.csv",
+    "filename": "30G_A_TRANSITION_AREA_V1.csv",
+    "extension": ".csv",
+    "size_bytes": 458,
+    "size_mb": 0.0004,
+    "sha256": "8b86a4c98a1f1725524edeee4527fa29c07da5568f527654fc1c88d6612f9597",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30G\\30G_C_FINAL_CLASS_AREA_CANONICAL.csv",
+    "filename": "30G_C_FINAL_CLASS_AREA_CANONICAL.csv",
+    "extension": ".csv",
+    "size_bytes": 196,
+    "size_mb": 0.0002,
+    "sha256": "fcd98658e5721a89b3090b967f5d022f9813e63c0c184814819af067480783ce",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30G\\30G_C_FINAL_GUARDRAIL_QA.csv",
+    "filename": "30G_C_FINAL_GUARDRAIL_QA.csv",
+    "extension": ".csv",
+    "size_bytes": 222,
+    "size_mb": 0.0002,
+    "sha256": "153db259feeecd3855049a7acc17ca131dae6b3138f93df72c938e4e67d053dc",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30G\\30G_C_FINAL_TRANSITION_AREA_CANONICAL.csv",
+    "filename": "30G_C_FINAL_TRANSITION_AREA_CANONICAL.csv",
+    "extension": ".csv",
+    "size_bytes": 399,
+    "size_mb": 0.0004,
+    "sha256": "5ab336af9cfc702d140f9753c620fa72527093052359e2df6f4430053d83c399",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_BAND_DICTIONARY.json",
+    "filename": "30H_BAND_DICTIONARY.json",
+    "extension": ".json",
+    "size_bytes": 1222,
+    "size_mb": 0.0012,
+    "sha256": "b6237fe5a383d1837bc8b4b9916f891d5ad4e010042f6eecb8422c1fc570d619",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_FINAL_CLASS_AREA.csv",
+    "filename": "30H_FINAL_CLASS_AREA.csv",
+    "extension": ".csv",
+    "size_bytes": 316,
+    "size_mb": 0.0003,
+    "sha256": "7df9123b33674887877215818ead914311c7ac192174cfe23dd725014c7f027a",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_FINAL_MAP.png",
+    "filename": "30H_FINAL_MAP.png",
+    "extension": ".png",
+    "size_bytes": 1267615,
+    "size_mb": 1.2089,
+    "sha256": "a09a8b6346764005b5b4e16d78edb5881a3456b34c243200152734cb11ff0105",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_FINAL_TRANSITION_AREA.csv",
+    "filename": "30H_FINAL_TRANSITION_AREA.csv",
+    "extension": ".csv",
+    "size_bytes": 901,
+    "size_mb": 0.0009,
+    "sha256": "221fffb24fd0e8f83d55bdf87a80600fd7f0f58f137bf313aa97a98c451abe47",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_FREEZE_MANIFEST.json",
+    "filename": "30H_FREEZE_MANIFEST.json",
+    "extension": ".json",
+    "size_bytes": 1860,
+    "size_mb": 0.0018,
+    "sha256": "dc13c101661463f09f1d929556588a29d2eae5ee43a648189f61e673b6111913",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_LEGEND.json",
+    "filename": "30H_LEGEND.json",
+    "extension": ".json",
+    "size_bytes": 1178,
+    "size_mb": 0.0011,
+    "sha256": "84237818e8d3bfbe04108cfaf1d40f847213a152eb17e3435840ebb2a9f5fe3f",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_MAP_RAW.png",
+    "filename": "30H_MAP_RAW.png",
+    "extension": ".png",
+    "size_bytes": 305151,
+    "size_mb": 0.291,
+    "sha256": "6012ad5b1a297eb83fde9a0a971a75445227496e3a33b0c02d8f284e1b2324b1",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_PRODUCT_SUMMARY.json",
+    "filename": "30H_PRODUCT_SUMMARY.json",
+    "extension": ".json",
+    "size_bytes": 2163,
+    "size_mb": 0.0021,
+    "sha256": "6fcda06ab77ba58d88c8751ff6919c16a5ea917840884f6dada9d2a0557db067",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  },
+  {
+    "relative_path": "checkpoints_30H\\30H_PRODUCT_SUMMARY.md",
+    "filename": "30H_PRODUCT_SUMMARY.md",
+    "extension": ".md",
+    "size_bytes": 1100,
+    "size_mb": 0.001,
+    "sha256": "877c39e829eec76cafeab97bee28572e0c8d236db9db2fe23e224230ee274ace",
+    "storage": "LOCAL_PROJECT",
+    "exists": true
+  }
+]

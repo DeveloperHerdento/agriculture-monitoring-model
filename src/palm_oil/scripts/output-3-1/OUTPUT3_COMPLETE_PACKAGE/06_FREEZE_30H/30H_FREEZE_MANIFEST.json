@@ -1,0 +1,58 @@
+{
+  "output": "Output 3",
+  "product": "Plantation Condition & Inspection Risk",
+  "aoi": "SIAK_AOI01",
+  "year": 2025,
+  "canonical_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "analytical_status": "FROZEN",
+  "technical_qa": "PASS",
+  "evidence_guardrail_qa": "PASS",
+  "field_validation": "NOT_AVAILABLE",
+  "bands": [
+    "CORE_CLASS",
+    "CORE_RISK_SCORE_0_100",
+    "CONTEXT_MODIFIER_SCORE",
+    "CONTEXT_MODIFIER_COVERAGE",
+    "INTEGRATED_SCORE_0_100",
+    "INTEGRATED_CLASS",
+    "CLASS_DELTA"
+  ],
+  "class_schema": {
+    "0": {
+      "label": "Insufficient Data",
+      "interpretation": "Evidence or coverage is inadequate.",
+      "color": "#BDBDBD"
+    },
+    "1": {
+      "label": "Stable / Expected Condition",
+      "interpretation": "Close to baseline with no persistent decline evidence.",
+      "color": "#2CA25F"
+    },
+    "2": {
+      "label": "Watch",
+      "interpretation": "Mild anomaly, radar-only support, or downgraded small priority patch.",
+      "color": "#FEE08B"
+    },
+    "3": {
+      "label": "Persistent Stress - Inspection Priority",
+      "interpretation": "Moderate persistent multi-indicator optical anomaly; inspection recommended.",
+      "color": "#F46D43"
+    },
+    "4": {
+      "label": "High Persistent Anomaly - High Priority",
+      "interpretation": "Strong persistent spatially coherent optical anomaly; high inspection priority.",
+      "color": "#A50026"
+    }
+  },
+  "files_generated_by_30H": [
+    "30H_FINAL_CLASS_AREA.csv",
+    "30H_FINAL_TRANSITION_AREA.csv",
+    "30H_PRODUCT_SUMMARY.json",
+    "30H_LEGEND.json",
+    "30H_BAND_DICTIONARY.json",
+    "30H_FREEZE_MANIFEST.json",
+    "30H_FINAL_MAP.png",
+    "30H_PRODUCT_SUMMARY.md"
+  ],
+  "next_stage": "30I_WEB_DELIVERY_AND_MASTER_IPYNB"
+}

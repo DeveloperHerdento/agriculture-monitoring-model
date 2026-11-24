@@ -1,0 +1,5 @@
+# Developer tools only; never installed on a server.
+pytest==8.3.4         # tests
+ruff==0.9.6           # lint + format (also checks notebooks)
+nbstripout==0.8.1     # strip notebook outputs before commit
+ipykernel==6.29.5     # run notebooks in VS Code / Jupyter with this venv

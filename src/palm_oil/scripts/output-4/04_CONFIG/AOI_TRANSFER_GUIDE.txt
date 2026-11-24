@@ -1,0 +1,49 @@
+OUTPUT 4 — AOI TRANSFER GUIDE
+=============================
+
+CHANGE FOR A NEW AOI
+--------------------
+1. AOI ID / display name
+2. Output-1 palm boundary/mask
+3. reference + monitoring year
+4. projected CRS
+5. exact clipped 500 m ASU geometry
+6. Output-2 age context
+7. Output-3 condition context
+8. SoilGrids extraction
+9. CHIRPS + ERA5-Land cell mapping and prepared weather
+10. PALMSIM prepared inputs/scenarios
+11. APSIM representative benchmark design
+12. expected ASU count
+13. exact palm area
+14. AOI-specific filenames / asset prefixes / package version
+
+KEEP REUSABLE BY DEFAULT
+------------------------
+- Output-4 schema
+- Class 0–4 semantic schema
+- UNIT_ID join concept
+- direct-vs-fallback distinction
+- Class-4 guardrail
+- outside-palm transparency
+- legend/popup contract structure
+- QA/freeze discipline
+- web package contract
+
+RE-TEST FOR EVERY NEW AOI
+-------------------------
+- ASU suitability
+- source coverage
+- age support
+- climate mapping
+- PALMSIM/APSIM behavior
+- structural model disagreement
+- fallback performance
+- productivity thresholds
+- condition/age sensitivity
+- class switching sensitivity
+- confidence distribution
+- class-area distribution
+- geometry/area freeze
+
+Siak numerical thresholds are transfer-test V0 only until AOI-specific QA passes.

@@ -1,0 +1,30 @@
+{
+  "google_drive_folder": "SIAK_AOI01_OUTPUT3_WEB_DELIVERY_2025",
+  "class_cog": {
+    "filename": "SIAK_AOI01_O3_CLASS_COG_2025.tif",
+    "bands": [
+      "CORE_CLASS",
+      "INTEGRATED_CLASS",
+      "CLASS_DELTA"
+    ],
+    "data_type": "Int16",
+    "nodata": -9999,
+    "recommended_web_resampling": "nearest",
+    "task_id": "GZBZ2BN75UVDZT5ARW76O4U6",
+    "submission_state": "READY"
+  },
+  "metrics_cog": {
+    "filename": "SIAK_AOI01_O3_METRICS_COG_2025.tif",
+    "bands": [
+      "CORE_RISK_SCORE_0_100",
+      "CONTEXT_MODIFIER_SCORE",
+      "CONTEXT_MODIFIER_COVERAGE",
+      "INTEGRATED_SCORE_0_100"
+    ],
+    "data_type": "Float32",
+    "nodata": -9999,
+    "recommended_web_resampling": "bilinear",
+    "task_id": "TWCREHXWHXN6YEP7BGXHSQ5U",
+    "submission_state": "READY"
+  }
+}

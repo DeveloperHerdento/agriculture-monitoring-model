@@ -1,0 +1,44 @@
+{
+  "manifest_version": "OUTPUT3_FINAL_PACKAGE_V1",
+  "created_at": "2026-08-13T12:46:15.564985",
+  "product": "Plantation Condition & Inspection Priority",
+  "aoi_id": "SIAK_AOI01",
+  "monitoring_year": 2025,
+  "baseline": "2020-2024 matched two-month periods",
+  "workflow": "30A -> 30B -> 30C -> 30D -> 30E -> 30F -> 30G -> 30H -> 30I -> 30J",
+  "canonical_gee_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "master_pipeline": "00_MASTER_PIPELINE/MASTER_PIPELINE_OUTPUT3.ipynb",
+  "runner": "00_MASTER_PIPELINE/run_output3.py",
+  "generic_aoi_template": "01_CONFIG/OUTPUT3_AOI_TEMPLATE.json",
+  "web_delivery": {
+    "class_cog": "07_WEB_DELIVERY_30I/rasters/SIAK_AOI01_O3_CLASS_COG_2025.tif",
+    "metrics_cog": "07_WEB_DELIVERY_30I/rasters/SIAK_AOI01_O3_METRICS_COG_2025.tif",
+    "boundary": "07_WEB_DELIVERY_30I/vectors/O3_PLANTATION_BOUNDARY.geojson",
+    "inspection_priority": "07_WEB_DELIVERY_30I/vectors/O3_INSPECTION_PRIORITY.geojson",
+    "period_summary": "07_WEB_DELIVERY_30I/tables/O3_PERIOD_SUMMARY.csv",
+    "temporal_series": "07_WEB_DELIVERY_30I/tables/O3_TEMPORAL_SERIES.json",
+    "legend": "07_WEB_DELIVERY_30I/metadata/O3_LEGEND.json",
+    "contract": "07_WEB_DELIVERY_30I/metadata/O3_WEB_DATA_CONTRACT.json"
+  },
+  "quality": {
+    "analytical_freeze": "PASS",
+    "canonical_asset": "PASS",
+    "class_cog": "PASS",
+    "metrics_cog": "PASS",
+    "source_archive": "PASS",
+    "file_checksums": "PASS"
+  },
+  "scientific_guardrails": {
+    "field_validated": false,
+    "transferability_validated": false,
+    "diagnostic_product": false,
+    "safe_product_definition": "Early-warning / inspection-priority decision-support product."
+  },
+  "automation": {
+    "prepared_asset_to_final": "READY",
+    "aoi01_reproduction": "READY",
+    "historical_upstream_source": "ARCHIVED",
+    "raw_source_to_final_single_command": "NOT_VALIDATED"
+  },
+  "checksum_manifest": "10_ARCHIVE_MANIFEST/SHA256SUMS.txt"
+}

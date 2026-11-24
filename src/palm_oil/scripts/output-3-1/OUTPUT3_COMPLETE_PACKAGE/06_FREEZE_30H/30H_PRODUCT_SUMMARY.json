@@ -1,0 +1,61 @@
+{
+  "product_id": "OUTPUT3_PLANTATION_CONDITION_INSPECTION_PRIORITY",
+  "aoi_id": "SIAK_AOI01",
+  "monitoring_year": 2025,
+  "canonical_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "source_core_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30D04_BALANCED_RISK_2025",
+  "version": "30G_V1_1_GRIDLOCKED",
+  "freeze_status": "ANALYTICAL_CORE_FROZEN",
+  "qa_status": "PASS",
+  "crs": "EPSG:32647",
+  "nominal_scale_m": 10,
+  "transform": [
+    10,
+    0,
+    804540,
+    0,
+    -10,
+    87290
+  ],
+  "total_valid_area_ha": 13829.964934323902,
+  "changed_class_area_ha": 42.26327110061645,
+  "changed_class_pct": 0.3055920336842311,
+  "context_modifier_coverage_pct": 99.94051828645306,
+  "fusion_amplitude": 5,
+  "maximum_class_change": 1,
+  "field_validated": false,
+  "interpretation": "Integrated inspection-priority candidate. The product supports inspection prioritization and is not a diagnosis of nutrient deficiency, disease, or plantation health.",
+  "important_limitations": [
+    "No independent field validation is available.",
+    "Class distribution and model agreement are not accuracy metrics.",
+    "Environmental context represents association/context, not pixel-level causality.",
+    "Coarse-resolution environmental sources do not gain 10 m information through resampling.",
+    "Higher-priority Class 3-4 transitions require optical evidence."
+  ],
+  "class_distribution": [
+    {
+      "class_code": 1,
+      "class_label": "Stable / Expected Condition",
+      "area_ha": 9530.222306619278,
+      "area_pct": 68.90995278640725
+    },
+    {
+      "class_code": 2,
+      "class_label": "Watch",
+      "area_ha": 4081.9329148048414,
+      "area_pct": 29.515135679585818
+    },
+    {
+      "class_code": 3,
+      "class_label": "Persistent Stress - Inspection Priority",
+      "area_ha": 187.6966328704834,
+      "area_pct": 1.3571735992232956
+    },
+    {
+      "class_code": 4,
+      "class_label": "High Persistent Anomaly - High Priority",
+      "area_ha": 30.11308002929686,
+      "area_pct": 0.21773793478362846
+    }
+  ]
+}

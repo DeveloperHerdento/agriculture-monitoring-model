@@ -1,98 +1,138 @@
-# agriculture-python-model
+# agriculture-monitoring-model
 
-Python data/model pipelines for agriculture commodity monitoring in
-Indonesia. Two independent variants live side by side in this repo:
+> Python / Google Earth Engine models for agriculture monitoring in Indonesia (RATRA agriculture):
+> **paddy** (padi) and **palm oil** (kelapa sawit). Also an installable library used by
+> `agriculture-monitoring-web`.
 
-- **`palm-oil/`** — palm oil (kelapa sawit) model
-- **`paddy/`** — paddy/rice (padi) model: field extraction, growth-phase
-  classification, vegetation-health/drought analysis, and productivity
-  estimation (LUE + WOFOST)
+**Owner:** `@DeveloperHerdento` (TODO(owner): team) · **Type:** `-model` · **Status:** exploration
+(paddy notebooks + delivered palm-oil packages) · library `v0.1.0` used by the web backend
 
-> **Project status:** `paddy/` currently has four exploratory notebooks
-> covering the full pipeline (Modules 1-4, see below); `palm-oil/` is
-> scaffolded but has no scripts/notebooks yet. Nothing here is packaged
-> as a reusable library or service — each variant is a handful of
-> standalone scripts/notebooks. See `CLAUDE.md` for the full set of repo
-> conventions.
-
-## Data flow (`paddy/`)
-
-```
-Module 1: PaddyFieldExtraction
-  Satellite imagery ──▶ classification ──▶ accuracy assessment
-                                │
-                                ▼
-                  Klasifikasi_Sawah.tif / .geojson
-                  (shared paddy-field mask, read by Modules 2-4)
-                                │
-        ┌───────────────────────┼───────────────────────┐
-        ▼                       ▼                       ▼
-Module 2: GrowthPhase   Module 3: Health         Module 4: Productivity
-  GEE time-series          Vegetation indices       LUE constant-productivity
-  growth-phase              VHI + drought              WOFOST potential
-  classification            analysis                   productivity
-        │                       │                       │
-        ▼                       ▼                       ▼
-   results/tables/         results/tables/         results/tables/
-   figures/module_2/       figures/module_3/       figures/module_4/
-```
-
-Module 1's output (`Klasifikasi_Sawah.tif` / `.geojson`) is a shared
-dependency read by Modules 2-4, so it stays flat in `data/processed/`
-while everything else is organized per module.
-
-## Folder layout
-
-```
-<variant>/
-  data/
-    raw/          Original source data, never modified in place
-    processed/    Derived/cleaned data produced by scripts
-  scripts/        Python ETL / model scripts (*.py)
-  scripts/notebook/  Exploratory Jupyter notebooks (*.ipynb)
-  results/
-    figures/       Plots, maps, charts
-    tables/        Output tables (csv/xlsx/etc), model metrics
-docs/             Cross-variant docs (setup notes, data dictionaries, etc)
-```
-
-`data/raw`, `data/processed`, and `results/` are git-ignored (data and
-generated output aren't versioned — only `.gitkeep` placeholders are
-tracked so the folders exist). Scripts should resolve paths relative to
-their own file location (`os.path.dirname(__file__)`), not the current
-working directory, so they run correctly regardless of where they're
-invoked from.
+- **For whom:** the RATRA agriculture web app (field-level analyses) and analysts who rerun the notebooks.
+- **What:** paddy field extraction, growth phase, vegetation health / drought (VHI), productivity (LUE + WOFOST);
+  palm-oil plantation boundary, tree age, condition, nutrient, productivity / management priority, waterlogging.
+- Paddy and palm oil are independent pipelines that happen to live in one repo; they share only `src/.../gee.py`.
 
 ## Setup
 
+You need Python 3.12 (same as the web backend) and Git.
+
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/DeveloperHerdento/agriculture-monitoring-model.git && cd agriculture-monitoring-model
+py -3.12 -m venv .venv && .venv\Scripts\activate          # macOS/Linux: python3.12 -m venv .venv && source .venv/bin/activate
+python -m pip install -r requirements.txt -r requirements-dev.txt -e .
+earthengine authenticate                                   # once per machine, or set GEE_KEY_FILE
+pytest -q
 ```
 
-Requires Python 3.10+.
+Copy `.env.example` to `.env` and fill it in. In VS Code pick `.venv` as interpreter and notebook kernel.
 
-## Usage
+## Environment
 
-### Paddy (`paddy/scripts/notebook/`)
+| Variable | Read by | Meaning |
+|---|---|---|
+| `GEE_PROJECT` | `gee.init_ee()` | Earth Engine / Cloud project ID (empty = default project of the credentials) |
+| `GEE_KEY_FILE` | `gee.init_ee()` | path to a service-account JSON; empty = `earthengine authenticate` user credentials |
+| `PALM_DATA_DIR` | `palm` | folder with `plantation_boundary.geojson`, `o1_training_aoi01.geojson`, `output4_management_priority.geojson` |
 
-Run the notebooks in order — each later module depends on Module 1's
-output:
+All three are read **at call time**, not at import. The notebooks do not read them yet (they hardcode the GEE
+project ID; see open items in `CHANGELOG.md`).
 
-1. `Module_1_PaddyFieldExtraction.ipynb` — extracts the paddy-field mask
-   and runs accuracy assessment
-2. `Module_2_PaddyGrowthPhase.ipynb` — classifies growth phase from GEE
-   time series
-3. `Module_3_Health.ipynb` — vegetation indices, VHI, and drought
-   analysis
-4. `Module_4_Productivity.ipynb` — LUE constant and WOFOST potential
-   productivity estimates
+## Use as a library
 
-### Palm oil (`palm-oil/scripts/`)
+```bash
+pip install -e ../agriculture-monitoring-model                       # local, next to the web repo
+pip install "agriculture-monitoring-model @ git+https://github.com/DeveloperHerdento/agriculture-monitoring-model.git@v0.1.0"   # deploy
+```
 
-Not built out yet — add a usage section here as scripts land (e.g.
-`python palm-oil/scripts/<step>.py`).
+```python
+from agriculture_monitoring_model import palm, paddy   # same API as the web app's app.services.palm_models / paddy_models
 
-## Conventions
+paddy.RUNNERS["vhi"](aoi_geojson, "2025-07-01", "2025-08-01", Path("out/vhi.tif"))   # returns summary dict, writes a COG
+```
 
-See `CLAUDE.md` for the full set of repo rules (data-path handling,
-naming, when to update `CHANGELOG.md`, etc).
+Contract with `agriculture-monitoring-web`:
+
+- `palm` and `paddy` keep the public names and behaviour of the web snapshot (`RUNNERS`, `palm_*`, `productivity`,
+  `vhi`, `growth_phase`, `add_months`, `PRODUCTIVITY_YEAR`, `VHI_FIRST_YEAR`, `productivity_covers`, ...).
+- Earth Engine is initialised lazily, once per process, by `gee.init_ee()` inside every runner, from
+  `GEE_KEY_FILE` / `GEE_PROJECT`. The web backend exports these from its settings.
+- `palm` reads its frozen geojson files from `PALM_DATA_DIR` (web: `backend/data/geojson/palm_oil`) and raises a
+  clear `RuntimeError` when it is unset. `paddy` reads no data files.
+- Each runner writes one float32 COG (nodata -9999, named bands) to the `dest` path you pass.
+- Release: bump `version` in `pyproject.toml` and `__init__.py`, add a `CHANGELOG.md` entry, tag `vX.Y.Z`.
+
+## Structure
+
+Two domains, same spelling everywhere: `paddy` and `palm_oil`.
+
+```
+src/agriculture_monitoring_model/   library: palm.py, paddy.py, gee.py (GEE helpers)
+src/palm_oil/scripts/output-3-1/    Output 3.1 package as delivered (OUTPUT3_COMPLETE_PACKAGE, layout kept)
+src/palm_oil/scripts/output-4/      Output 4 code: 02_NOTEBOOK, 03_SCRIPTS, 04_CONFIG (layout kept)
+tests/                              pytest (no Earth Engine calls)
+notebooks/paddy/                    paddy pipeline, run in order (below)
+notebooks/palm_oil/                 palm-oil Output 1 and 2 notebooks
+configs/paddy.yaml, palm_oil.yaml   parameters (reference copy of the notebook / package values)
+data/<domain>/{raw,interim,processed}/   not in git, see data/README.md
+models/                             trained model files (not in git; none yet)
+reports/figures/paddy/              paddy notebook figures (not in git)
+reports/deliverables/               template for packages handed to others (Rule 11.8)
+docs/                               ADRs; docs/notes/ = local working notes (not in git)
+```
+
+## Run order — paddy (`notebooks/paddy/`)
+
+Open each notebook with `notebooks/paddy/` as working directory (Jupyter / VS Code default). They read
+`../../data/paddy/raw/AOI_1.shp` and write to `../../data/paddy/processed/module_N/` and
+`../../reports/figures/paddy/module_N/`.
+
+```
+01-field-extraction ──▶ data/paddy/processed/module_1/Klasifikasi_Sawah.tif (+ .geojson)  paddy mask, read by 02-04
+        │
+        ├──▶ 02-1-growth-phase   GEE monthly S2/S1/CHIRPS composites → growth phase + cropping index (IP)
+        ├──▶ 03-health           vegetation indices, VHI + drought, VHI trend (Mann-Kendall / Sen)
+        └──▶ 04-productivity     LUE constant productivity + WOFOST potential
+```
+
+1. `01-field-extraction.ipynb` — Dynamic World paddy mask + accuracy assessment
+2. `02-1-growth-phase.ipynb` — growth phase from GEE time series
+3. `03-health.ipynb` — vegetation indices, VHI, drought
+4. `04-productivity.ipynb` — LUE and WOFOST productivity
+
+Variants (kept because they differ):
+
+- `01-field-extraction-road-river-revision.ipynb` — Module 1 revision (2026-09-22) that removes roads/rivers using
+  `jaringan_jalan_sungai.geojson`. It still reads/writes **in its working directory** (`AOI_1.shp`,
+  `jaringan_jalan_sungai.geojson`): copy those from `data/paddy/raw/` next to it, or align its paths with 01.
+- `02-growth-phase-from-hotspot-repo.ipynb` — Lamongan growth-phase variant (Planetary Computer + GEE version),
+  moved here from `hotspot-monitoring-model`. Reads `Klasifikasi_15x15_Sawah_Saja.tif` from its working directory.
+
+## Palm oil
+
+Packages delivered by the analyst for **SIAK_AOI01, 2025**. The web app ports them in `src/.../palm.py`.
+
+| Output | Code | Delivered data (`data/palm_oil/processed/`) |
+|---|---|---|
+| 1 Plantation boundary | `notebooks/palm_oil/output-1-plantation-boundary.ipynb` | `output-1-plantation-boundary/` |
+| 2 Tree age | `notebooks/palm_oil/output-2-tree-age.ipynb` | `output-2-tree-age/` |
+| 3.1 Condition / inspection priority | `src/palm_oil/scripts/output-3-1/OUTPUT3_COMPLETE_PACKAGE/` (`README_START_HERE.md`) | inside the package |
+| 3.2 Nutrient | — (not delivered) | `output-3-2-nutrient/` |
+| 4 Productivity / management priority | `src/palm_oil/scripts/output-4/` (`README_OUTPUT4.txt`, `03_SCRIPTS/run_output4.py`) | `output-4/` |
+| 5.2 Waterlogging | — (not delivered) | `output-5-2-waterlogging/` |
+
+The Output 3.1 and 4 scripts contain the analyst's absolute Windows paths and GEE asset IDs; they are an archive of
+how the products were made, not runnable as-is. From `src/palm_oil/scripts/output-4/`,
+`python 03_SCRIPTS/run_output4.py --config 04_CONFIG/SIAK_AOI01_OUTPUT4_CONFIG.json --validate` works
+(it looks for scripts in `<config>/../03_SCRIPTS`). They are not part of the installed library.
+
+## Rules
+
+1. Never commit data, rasters, zips or `.env` (`.gitignore` blocks them).
+2. Never edit files in `data/<domain>/raw/`; derived output goes to `data/<domain>/processed/` or a new file name.
+3. Logic used twice moves to `src/`; notebooks are for exploration.
+4. Update `CHANGELOG.md` for every user-visible or structural change.
+5. Notebook print/comment language: keep the language the notebook already uses (Indonesian) when editing it.
+
+## Git
+
+Default branch `main`; every change via pull request. `make lint` / `make test` (no make: copy the command from `Makefile`).

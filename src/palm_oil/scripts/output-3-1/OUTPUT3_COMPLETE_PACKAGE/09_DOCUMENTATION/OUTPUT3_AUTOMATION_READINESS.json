@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-08-13T11:56:44.303421",
+  "overall_status": "PARTIALLY_AUTOMATED_REPRODUCIBLE_PIPELINE",
+  "automated_now": {
+    "config_loading": true,
+    "gee_initialization": true,
+    "asset_audit": true,
+    "frozen_30f_parameter_restore": true,
+    "30g_integration": true,
+    "seven_band_qa": true,
+    "aoi01_canonical_reproduction_check": true
+  },
+  "not_yet_packaged_as_one_click": {
+    "30a_aoi_bootstrap": true,
+    "30b_baseline_monitoring_builder": true,
+    "30c_anomaly_builder": true,
+    "30d_core_risk_builder": true,
+    "30e_context_builders": true
+  },
+  "current_new_aoi_capability": "A new AOI can use this runner once the standardized 30D and 30E assets have been produced.",
+  "target_after_30j_d": "Package upstream 30A-30E source/process builders and provenance so the project can be handed over as a complete raw/upstream-to-final workflow.",
+  "scientific_guardrail": "Technical portability is not the same as validated transferability or field accuracy."
+}

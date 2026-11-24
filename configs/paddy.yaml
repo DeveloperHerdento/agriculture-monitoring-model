@@ -1,0 +1,35 @@
+# Every number that changes the paddy result lives here (HGS-STD 11.4).
+# STATUS: reference only. The notebooks still hardcode these values (copied here from them);
+# PROPOSAL: read this file from the notebooks once Module 3 WIP is committed.
+domain: paddy
+seed: 42
+
+gee:
+  project_env: GEE_PROJECT              # project ID comes from env (.env), never hardcoded (Rule 11.3)
+
+aoi: data/paddy/raw/AOI_1.shp           # 01-field-extraction.ipynb SHP_PATH
+paddy_mask: data/paddy/processed/module_1/Klasifikasi_Sawah.tif   # output of 01, read by 02-04
+field_extraction:                       # 01-field-extraction.ipynb
+  date: "2026-08-31"                    # TANGGAL_PILIHAN
+  window_months: 12                     # RENTANG_BULAN
+  dynamic_world_paddy_classes: [3, 4]   # KODE_SAWAH
+  majority_window_px: 5
+  resolution_m: 10
+growth_phase:                           # 02-1-growth-phase.ipynb
+  epsg_utm: 32749
+  months: 13
+  cloud_max_tiers: [20, 40, 60]
+  min_scenes_per_month: 3
+health:                                 # 03-health.ipynb (VHI part)
+  year_from: 2016
+  year_to: 2026
+  month: 7
+  cloud_tiers_baseline: [40, 60, 80, 100]
+  min_images_baseline: 15
+  mmu_ha: 0.5
+  min_trend_years: 4
+productivity:                           # 04-productivity.ipynb
+  aggregation_factor: 5
+  wofost_crop: rice
+  wofost_variety: Rice_IR64
+  weather: NASA_POWER
