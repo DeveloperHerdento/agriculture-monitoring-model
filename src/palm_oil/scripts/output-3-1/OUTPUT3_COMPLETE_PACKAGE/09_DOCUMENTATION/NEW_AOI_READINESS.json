@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-13T12:00:24.644750",
+  "aoi01_reproducibility": "READY",
+  "prepared_asset_to_final_runner": "READY",
+  "new_aoi_configuration_template": "READY",
+  "upstream_30a_30e_source_capture": {
+    "30A": {
+      "captured_code_cells": 7,
+      "source_capture_exists": true
+    },
+    "30B": {
+      "captured_code_cells": 1,
+      "source_capture_exists": true
+    },
+    "30C": {
+      "captured_code_cells": 0,
+      "source_capture_exists": false
+    },
+    "30D": {
+      "captured_code_cells": 0,
+      "source_capture_exists": false
+    },
+    "30E": {
+      "captured_code_cells": 1,
+      "source_capture_exists": true
+    }
+  },
+  "all_upstream_stages_have_captured_source": false,
+  "raw_source_to_final_one_click": false,
+  "raw_source_to_final_reason": "Development source has been preserved, but source capture alone does not prove that every 30A-30E stage is an independent parameterized production module.",
+  "handover_reproducibility": "READY",
+  "technical_transfer_test": "READY_ONCE_STANDARDIZED_UPSTREAM_ASSETS_EXIST",
+  "validated_transferability": false,
+  "scientific_note": "A new AOI should first be treated as a technical transferability test. AOI01 weights and thresholds are not automatically locally validated."
+}

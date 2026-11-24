@@ -1,0 +1,14 @@
+{
+  "stage": "30J-D2",
+  "generated_at": "2026-08-13T12:04:25.332704",
+  "purpose": "Recover actual historical upstream source.",
+  "critical_source_status": {
+    "30B": false,
+    "30C": false,
+    "30D04": true,
+    "30E": true
+  },
+  "critical_upstream_source_candidate_complete": false,
+  "important_note": "Recovered candidate source still requires manual/technical verification before it is promoted to a parameterized production builder.",
+  "30j_e_allowed": false
+}

@@ -1,0 +1,12 @@
+# Palm oil settings (HGS-STD 11.4). STATUS: reference only; each output package reads its own JSON config below.
+domain: palm_oil
+seed: 42
+
+gee:
+  project_env: GEE_PROJECT              # project ID comes from env (.env), never hardcoded (Rule 11.3)
+
+aoi_id: SIAK_AOI01
+reference_year: 2025
+configs:                                # per-output configs delivered with the packages
+  output_3_1: src/palm_oil/scripts/output-3-1/OUTPUT3_COMPLETE_PACKAGE/01_CONFIG/SIAK_AOI01_OUTPUT3_RUN_CONFIG.json
+  output_4: src/palm_oil/scripts/output-4/04_CONFIG/SIAK_AOI01_OUTPUT4_CONFIG.json

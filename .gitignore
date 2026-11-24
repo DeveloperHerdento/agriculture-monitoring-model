@@ -1,18 +1,48 @@
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+*.egg-info/
 .venv/
 venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 
-# raw/processed data and generated results are large/derived — not versioned
-/palm-oil/data/raw/*
-/palm-oil/data/processed/*
-/palm-oil/results/figures/*
-/palm-oil/results/tables/*
-/paddy/data/raw/*
-/paddy/data/processed/*
-/paddy/results/figures/*
-/paddy/results/tables/*
+# Secrets: only the template is versioned
+.env*
+!.env*.example
+secrets/
+
+# Data, figures and models never go into git (HGS-STD 11.1); folders are kept with .gitkeep
+data/*/raw/*
+data/*/interim/*
+data/*/processed/*
+models/*
+reports/figures/
 !**/.gitkeep
 
-.env
+# Rasters and temp files the notebooks write next to themselves (e.g. temp_dw.tif, Raster_VHI_*.tif)
+*.tif
+*.tiff
+temp_dw*/
+cache_*/
+
+# Archives and OS junk
+*.zip
+*.rar
+.DS_Store
+Thumbs.db
+
+# Personal notes and AI tool state
+.local/
+docs/notes/
+.claude/settings.local.json
+
+# Large notebooks with outputs: kept local, not committed (owner decision 2026-11-16)
+src/palm_oil/scripts/output-3-1/OUTPUT3_COMPLETE_PACKAGE/10_ARCHIVE_MANIFEST/*.ipynb
+notebooks/paddy/03-health.ipynb
+notebooks/paddy/02-growth-phase-from-hotspot-repo.ipynb
+notebooks/paddy/04-productivity.ipynb
+
+# Docs are kept outside git (owner decision 2026-11-17, deviates from HGS-STD 10.1)
+/docs/

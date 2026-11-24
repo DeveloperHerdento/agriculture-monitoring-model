@@ -1,0 +1,52 @@
+[
+  {
+    "stage": "30B",
+    "source_name": "30B_01_BUILD_S2_S1_COMPOSITES",
+    "source_status": "EXACT_HISTORICAL_SOURCE_RECOVERED",
+    "source_origin": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\03_HEALTH\\30B_01_BUILD_S2_S1_COMPOSITES.js",
+    "canonical_package_path": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30B_01_BUILD_S2_S1_COMPOSITES.js",
+    "production_role": "Build matched baseline and monitoring S2/S1 composites.",
+    "required_for_current_production_path": true,
+    "sha256": "256d6c9426c6868fee3e27c5d4ca6bca557637e3c4e2f1e59c4c285d84ddc9d4"
+  },
+  {
+    "stage": "30C",
+    "source_name": "30C_01_BUILD_ALL_ANOMALIES",
+    "source_status": "EXACT_HISTORICAL_SOURCE_RECOVERED",
+    "source_origin": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\03_HEALTH\\30C_01_BUILD_ALL_ANOMALIES.js",
+    "canonical_package_path": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30C_01_BUILD_ALL_ANOMALIES.js",
+    "production_role": "Build period anomaly assets from monitoring versus matched baseline.",
+    "required_for_current_production_path": true,
+    "sha256": "a8630ac8bd6569b79e3c25459b10781058ed8853c38cfd173e671119f0979f42"
+  },
+  {
+    "stage": "30D04",
+    "source_name": "30D04 Balanced Hybrid",
+    "source_status": "RECOVERED_DEVELOPMENT_SOURCE_CANDIDATE",
+    "source_origin": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30D04_RECOVERED_NOTEBOOK_CELLS.py",
+    "canonical_package_path": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30D04_RECOVERED_NOTEBOOK_CELLS.py",
+    "production_role": "Frozen core condition/risk builder.",
+    "required_for_current_production_path": true,
+    "sha256": "d8310e717c87b966665c416dfc1378268a785686e05bb942b6c959907dd6f642"
+  },
+  {
+    "stage": "30E",
+    "source_name": "30E Contextual Enrichment",
+    "source_status": "RECOVERED_DEVELOPMENT_SOURCE_CANDIDATE",
+    "source_origin": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30E_RECOVERED_NOTEBOOK_CELLS.py",
+    "canonical_package_path": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30E_RECOVERED_NOTEBOOK_CELLS.py",
+    "production_role": "Age/weather/ET-PET/terrain/hydrology/soil context generation.",
+    "required_for_current_production_path": true,
+    "sha256": "064d34f56ee4deb15393cc98893dbe8be4f4075a63f1d4931d3f002edcf82c2d"
+  },
+  {
+    "stage": "30I",
+    "source_name": "Web Delivery",
+    "source_status": "RECOVERED_DEVELOPMENT_SOURCE_CANDIDATE",
+    "source_origin": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30I_RECOVERED_NOTEBOOK_CELLS.py",
+    "canonical_package_path": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\SOURCE_RECOVERY\\30I_RECOVERED_NOTEBOOK_CELLS.py",
+    "production_role": "Web/COG delivery orchestration.",
+    "required_for_current_production_path": false,
+    "sha256": "d7095cbe1f7997b3ba550cff2fe9890ee0ffde1b6e8d8ead1ea4817b0083ce6e"
+  }
+]

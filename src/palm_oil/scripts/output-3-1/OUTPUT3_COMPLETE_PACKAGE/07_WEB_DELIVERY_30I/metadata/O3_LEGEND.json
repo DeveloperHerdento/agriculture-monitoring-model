@@ -1,0 +1,31 @@
+{
+  "product": "Plantation Condition & Inspection Priority",
+  "classes": [
+    {
+      "code": 0,
+      "label": "Insufficient Data",
+      "color": "#BDBDBD"
+    },
+    {
+      "code": 1,
+      "label": "Stable / Expected Condition",
+      "color": "#2CA25F"
+    },
+    {
+      "code": 2,
+      "label": "Watch",
+      "color": "#FEE08B"
+    },
+    {
+      "code": 3,
+      "label": "Persistent Stress - Inspection Priority",
+      "color": "#F46D43"
+    },
+    {
+      "code": 4,
+      "label": "High Persistent Anomaly - High Priority",
+      "color": "#A50026"
+    }
+  ],
+  "scientific_warning": "Inspection-priority / early-warning product. Not a confirmed disease, nutrient, or field-validated causal diagnosis."
+}

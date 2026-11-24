@@ -1,0 +1,57 @@
+{
+  "product": "Output 3 - Plantation Condition & Inspection Priority",
+  "aoi": "SIAK_AOI01",
+  "monitoring_year": 2025,
+  "canonical_gee_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "analytical_status": "FROZEN",
+  "technical_qa": "PASS",
+  "field_validation": "NOT_AVAILABLE",
+  "crs": "EPSG:32647",
+  "transform": [
+    10,
+    0,
+    804540,
+    0,
+    -10,
+    87290
+  ],
+  "nominal_resolution_m": 10,
+  "primary_web_layer": "INTEGRATED_CLASS",
+  "rasters": [
+    {
+      "filename": "SIAK_AOI01_O3_CLASS_COG_2025.tif",
+      "bands": [
+        "CORE_CLASS",
+        "INTEGRATED_CLASS",
+        "CLASS_DELTA"
+      ],
+      "data_type": "Int16",
+      "nodata": -9999,
+      "recommended_web_resampling": "nearest",
+      "task_id": "GZBZ2BN75UVDZT5ARW76O4U6",
+      "submission_state": "READY"
+    },
+    {
+      "filename": "SIAK_AOI01_O3_METRICS_COG_2025.tif",
+      "bands": [
+        "CORE_RISK_SCORE_0_100",
+        "CONTEXT_MODIFIER_SCORE",
+        "CONTEXT_MODIFIER_COVERAGE",
+        "INTEGRATED_SCORE_0_100"
+      ],
+      "data_type": "Float32",
+      "nodata": -9999,
+      "recommended_web_resampling": "bilinear",
+      "task_id": "TWCREHXWHXN6YEP7BGXHSQ5U",
+      "submission_state": "READY"
+    }
+  ],
+  "delivery_components": {
+    "metadata": "metadata/",
+    "tables": "tables/",
+    "qa": "qa/",
+    "preview": "preview/",
+    "rasters": "rasters/"
+  },
+  "important_interpretation": "Inspection-priority decision-support product. Not a diagnosis of plantation health, disease, or nutrient deficiency."
+}

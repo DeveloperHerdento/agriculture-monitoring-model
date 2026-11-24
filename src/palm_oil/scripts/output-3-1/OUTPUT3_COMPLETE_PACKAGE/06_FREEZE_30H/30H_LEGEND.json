@@ -1,0 +1,37 @@
+{
+  "title": "Plantation Condition & Inspection Priority",
+  "field": "INTEGRATED_CLASS",
+  "classes": [
+    {
+      "code": 0,
+      "label": "Insufficient Data",
+      "interpretation": "Evidence or coverage is inadequate.",
+      "color": "#BDBDBD"
+    },
+    {
+      "code": 1,
+      "label": "Stable / Expected Condition",
+      "interpretation": "Close to baseline with no persistent decline evidence.",
+      "color": "#2CA25F"
+    },
+    {
+      "code": 2,
+      "label": "Watch",
+      "interpretation": "Mild anomaly, radar-only support, or downgraded small priority patch.",
+      "color": "#FEE08B"
+    },
+    {
+      "code": 3,
+      "label": "Persistent Stress - Inspection Priority",
+      "interpretation": "Moderate persistent multi-indicator optical anomaly; inspection recommended.",
+      "color": "#F46D43"
+    },
+    {
+      "code": 4,
+      "label": "High Persistent Anomaly - High Priority",
+      "interpretation": "Strong persistent spatially coherent optical anomaly; high inspection priority.",
+      "color": "#A50026"
+    }
+  ],
+  "warning": "Inspection-priority indicator only; not field-validated diagnosis."
+}

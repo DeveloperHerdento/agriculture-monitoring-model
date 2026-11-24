@@ -1,0 +1,5 @@
+Download the two completed Earth Engine COG exports from Google Drive folder:
+
+SIAK_AOI01_OUTPUT3_WEB_DELIVERY_2025
+
+Then place both .tif files in this folder.

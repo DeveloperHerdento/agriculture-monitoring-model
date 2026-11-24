@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-08-13T12:18:10.312861",
+  "aoi01_analytical_product": "FROZEN_PASS",
+  "aoi01_reproducibility": "READY",
+  "prepared_asset_to_final_runner": "READY",
+  "30b_exact_historical_source": "RECOVERED",
+  "30c_exact_historical_source": "RECOVERED",
+  "30d04_development_source": "RECOVERED_CANDIDATE",
+  "30e_development_source": "RECOVERED_CANDIDATE",
+  "critical_source_archive_complete": true,
+  "raw_source_to_final_one_click_validated": false,
+  "one_click_note": "Critical historical source code is archived. However, the complete 30A-30E chain has not yet been demonstrated as one fully parameterized single-command production run.",
+  "technical_transfer_test": "READY_ONCE_STANDARDIZED_UPSTREAM_ASSETS_EXIST",
+  "validated_transferability": false,
+  "scientific_guardrail": "Technical reproducibility and source-code completeness do not establish field accuracy or validated transferability to another AOI."
+}

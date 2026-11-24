@@ -1,0 +1,107 @@
+{
+  "stage": "30F-B18C",
+  "version": "V1",
+  "calibration_AOI": "SIAK_AOI01",
+  "normalization": "WALL_TO_WALL_P10_P90_ROBUST_DIRECTIONAL",
+  "calibration_scope": "Full valid core AOI01 pixels at each source native/effective scale",
+  "modifier_range": [
+    -1,
+    1
+  ],
+  "core_risk_modified": false,
+  "condition_class_modified": false,
+  "features": [
+    {
+      "feature": "LOCAL_RELIEF_300M_M",
+      "family": "TERRAIN",
+      "p10": 3.867605274619491,
+      "p50": 16.881672886137284,
+      "p90": 31.14446493557521,
+      "association_direction": 1,
+      "within_family_weight": 0.5827856450662995
+    },
+    {
+      "feature": "SLOPE_DEG",
+      "family": "TERRAIN",
+      "p10": 0.0,
+      "p50": 2.0,
+      "p90": 9.0,
+      "association_direction": 1,
+      "within_family_weight": 0.4172143549337004
+    },
+    {
+      "feature": "SILT_PCT_DEEP_100_200CM",
+      "family": "SOIL",
+      "p10": 25.047916849454243,
+      "p50": 27.899999618530273,
+      "p90": 32.063590052121896,
+      "association_direction": -1,
+      "within_family_weight": 0.5884887839770148
+    },
+    {
+      "feature": "HAND_M",
+      "family": "HYDROLOGY",
+      "p10": 0.01777196403034809,
+      "p50": 3.1030272281732345,
+      "p90": 11.107420460852753,
+      "association_direction": 1,
+      "within_family_weight": 1.0
+    },
+    {
+      "feature": "WV1500_DEEP_100_200CM",
+      "family": "SOIL_WATER",
+      "p10": 0.21400000154972076,
+      "p50": 0.2300000041723251,
+      "p90": 0.24400000274181366,
+      "association_direction": 1,
+      "within_family_weight": 0.4062110229549816
+    },
+    {
+      "feature": "WV10_DEEP_100_200CM",
+      "family": "SOIL_WATER",
+      "p10": 0.3529999852180481,
+      "p50": 0.36399999260902405,
+      "p90": 0.375,
+      "association_direction": 1,
+      "within_family_weight": 0.32141790660294545
+    },
+    {
+      "feature": "SOC_GKG_SURFACE_0_30CM",
+      "family": "SOIL",
+      "p10": 94.28148057725694,
+      "p50": 181.38055504692926,
+      "p90": 222.50972429911295,
+      "association_direction": -1,
+      "within_family_weight": 0.4115112160229852
+    },
+    {
+      "feature": "PAW_PROXY_SURFACE_0_30CM",
+      "family": "SOIL_WATER",
+      "p10": 0.11180208437144756,
+      "p50": 0.13824476689936074,
+      "p90": 0.16164814846383202,
+      "association_direction": -1,
+      "within_family_weight": 0.2723710704420731
+    }
+  ],
+  "family_weights": [
+    {
+      "family": "HYDROLOGY",
+      "family_weight": 0.2508360192562712
+    },
+    {
+      "family": "SOIL",
+      "family_weight": 0.23044106295634498
+    },
+    {
+      "family": "SOIL_WATER",
+      "family_weight": 0.15635408584529584
+    },
+    {
+      "family": "TERRAIN",
+      "family_weight": 0.36236883194208797
+    }
+  ],
+  "transferability_rule": "Freeze AOI01 calibration and weights, apply unchanged to AOI02, then audit clipping, coverage and spatial behaviour.",
+  "next_stage": "30F-B18D_BOUNDED_FUSION_SENSITIVITY"
+}

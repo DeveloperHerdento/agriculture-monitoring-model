@@ -1,0 +1,46 @@
+{
+  "stage": "30F-B15",
+  "version": "V1",
+  "architecture": "CORE_RISK_PLUS_CONTEXT_ENRICHMENT",
+  "primary_core": {
+    "condition_class": "CONDITION_CLASS",
+    "risk_score": "RISK_SCORE_0_100",
+    "source": "30D04_BALANCED_RISK_2025",
+    "frozen": true
+  },
+  "context_score_modification_allowed": false,
+  "context_class_modification_allowed": false,
+  "age_predictive_support": false,
+  "chirps_unseen_context_support": false,
+  "era5_etpet_unseen_context_support": false,
+  "static_environment_features": [
+    "CLAY_PCT_SURFACE_0_30CM",
+    "SAND_PCT_DEEP_100_200CM",
+    "PH_H2O_SURFACE_0_30CM",
+    "SOC_GKG_SURFACE_0_30CM",
+    "PH_H2O_DEEP_100_200CM",
+    "SILT_PCT_DEEP_100_200CM",
+    "N_GKG_SURFACE_0_30CM",
+    "BDOD_KGDM3_SURFACE_0_30CM",
+    "CFVO_VOLPCT_SURFACE_0_30CM",
+    "LOCAL_RELIEF_300M_M",
+    "TPI_300M_M",
+    "TPI_90M_M",
+    "SLOPE_DEG",
+    "ASPECT_SIN",
+    "ASPECT_COS",
+    "WV1500_SURFACE_0_30CM",
+    "WV1500_DEEP_100_200CM",
+    "PAW_PROXY_SURFACE_0_30CM",
+    "WV10_DEEP_100_200CM",
+    "HAND_M",
+    "LOG10_UPA"
+  ],
+  "python_models": {
+    "A_SPATIAL": "EXPERIMENTAL_DIAGNOSTIC",
+    "B_SPATIAL_AGE": "EXPERIMENTAL_DIAGNOSTIC",
+    "C_SPATIAL_AGE_CHIRPS": "EXPERIMENTAL_DIAGNOSTIC",
+    "D_FULL_CONTEXT": "EXPERIMENTAL_DIAGNOSTIC"
+  },
+  "next_stage": "30F-B16_CONTEXT_REASON_FRAMEWORK"
+}

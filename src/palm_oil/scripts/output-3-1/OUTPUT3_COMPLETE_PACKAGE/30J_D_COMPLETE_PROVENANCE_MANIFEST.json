@@ -1,0 +1,19 @@
+{
+  "stage": "30J-D",
+  "status": "PASS",
+  "created_at": "2026-08-13T12:00:24.651300",
+  "working_notebook": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT 3.ipynb",
+  "working_notebook_cells": 76,
+  "source_classification": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\10_ARCHIVE_MANIFEST\\OUTPUT3_COMPLETE_CELL_CLASSIFICATION.csv",
+  "stage_source_capture_manifest": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\03_PROCESS_30A_30E\\OUTPUT3_STAGE_SOURCE_CAPTURE_MANIFEST.csv",
+  "checkpoint_inventory": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\02_ASSET_INVENTORY\\OUTPUT3_ANALYTICAL_CHECKPOINT_INVENTORY.json",
+  "key_hash_manifest": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\10_ARCHIVE_MANIFEST\\OUTPUT3_KEY_FILE_HASH_MANIFEST.csv",
+  "methodology": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\METHODOLOGY.md",
+  "limitations": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\LIMITATIONS.md",
+  "processing_history": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\PROCESSING_HISTORY.md",
+  "provenance": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\PROVENANCE.md",
+  "new_aoi_readiness": "C:\\Users\\user\\Documents\\KERJA\\SPATIAL DATA ANALYST INTERN\\OUTPUT3_COMPLETE_PACKAGE\\09_DOCUMENTATION\\NEW_AOI_READINESS.json",
+  "raw_source_to_final_one_click": false,
+  "analytical_model_changed": false,
+  "exports_started": false
+}

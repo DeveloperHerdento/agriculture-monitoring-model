@@ -1,0 +1,54 @@
+{
+  "CORE_CLASS": {
+    "type": "categorical",
+    "description": "Frozen 30D04 core inspection-priority class before contextual refinement."
+  },
+  "CORE_RISK_SCORE_0_100": {
+    "type": "continuous",
+    "range": [
+      0,
+      100
+    ],
+    "description": "Frozen core risk score before contextual refinement."
+  },
+  "CONTEXT_MODIFIER_SCORE": {
+    "type": "continuous",
+    "range": [
+      -1,
+      1
+    ],
+    "description": "Family-balanced static environmental context modifier."
+  },
+  "CONTEXT_MODIFIER_COVERAGE": {
+    "type": "continuous",
+    "range": [
+      0,
+      1
+    ],
+    "description": "Available weighted contextual evidence coverage."
+  },
+  "INTEGRATED_SCORE_0_100": {
+    "type": "continuous",
+    "range": [
+      0,
+      100
+    ],
+    "description": "Core risk score plus bounded F05 contextual modifier."
+  },
+  "INTEGRATED_CLASS": {
+    "type": "categorical",
+    "range": [
+      1,
+      4
+    ],
+    "description": "Final evidence-gated inspection-priority class."
+  },
+  "CLASS_DELTA": {
+    "type": "categorical",
+    "range": [
+      -1,
+      1
+    ],
+    "description": "Change from core class to integrated class."
+  }
+}

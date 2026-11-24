@@ -1,0 +1,41 @@
+{
+  "package": "OUTPUT3_COMPLETE_PACKAGE",
+  "aoi_id": "SIAK_AOI01",
+  "monitoring_year": 2025,
+  "generated_at": "2026-08-13T12:46:13.297208",
+  "analytical_status": "FROZEN_PASS",
+  "canonical_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "source_code_archive": {
+    "30B": "EXACT_HISTORICAL_SOURCE_RECOVERED",
+    "30C": "EXACT_HISTORICAL_SOURCE_RECOVERED",
+    "30D04": "RECOVERED_DEVELOPMENT_SOURCE_CANDIDATE",
+    "30E": "RECOVERED_DEVELOPMENT_SOURCE_CANDIDATE",
+    "30F": "CHECKPOINTS_ARCHIVED",
+    "30G": "CANONICAL_AND_QA_ARCHIVED",
+    "30H": "FREEZE_ARCHIVED",
+    "30I": "WEB_DELIVERY_ARCHIVED"
+  },
+  "delivery_status": {
+    "class_cog": "PASS",
+    "metrics_cog": "PASS",
+    "boundary_geojson": "PASS",
+    "inspection_priority_geojson": "PASS",
+    "period_summary": "PASS",
+    "temporal_series": "PASS",
+    "legend": "PASS",
+    "metadata": "PASS",
+    "master_notebook": "PASS",
+    "reusable_runner": "PASS"
+  },
+  "automation_status": {
+    "aoi01_reproducible": true,
+    "prepared_asset_to_final_automated": true,
+    "critical_historical_source_archived": true,
+    "raw_source_to_final_one_click_validated": false,
+    "new_aoi_transferability_validated": false
+  },
+  "scientific_status": {
+    "field_validated": false,
+    "claim": "INSPECTION_PRIORITY_NOT_DIAGNOSIS"
+  }
+}

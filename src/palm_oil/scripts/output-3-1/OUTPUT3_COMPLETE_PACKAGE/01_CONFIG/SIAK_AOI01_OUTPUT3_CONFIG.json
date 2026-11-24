@@ -1,0 +1,46 @@
+{
+  "schema_version": "OUTPUT3_CONFIG_V1",
+  "project_id": "palm-oil-503202",
+  "aoi_id": "SIAK_AOI01",
+  "reference_year": 2025,
+  "gee_asset_root": "projects/palm-oil-503202/assets",
+  "processing_architecture": "PYTHON_JUPYTER_WITH_EARTH_ENGINE_BACKEND",
+  "spatial_contract": {
+    "final_display_crs": "EPSG:32647",
+    "final_display_resolution_m": 10,
+    "preserve_native_effective_resolution": true,
+    "pseudo_downscaling_allowed": false
+  },
+  "upstream_assets": {
+    "plantation_boundary": "projects/palm-oil-503202/assets/SIAK_AOI01_PLANTATION_BOUNDARY_WEB_WGS84_2025",
+    "tree_age_proxy": "projects/palm-oil-503202/assets/SIAK_AOI01_OUTPUT2_FINAL_6CLASS_TREE_AGE_PROXY_2025"
+  },
+  "output3_assets": {
+    "core": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30D04_BALANCED_RISK_2025",
+    "age": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E01_AGE_CONTEXT_V3_2025",
+    "chirps": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E02A_CHIRPS_FINAL_2025",
+    "era5_land": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E02B_ERA5LAND_FINAL_2025",
+    "et_pet": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E02C_ETPET_FINAL_2025",
+    "terrain": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E03A_TERRAIN_CORE_2025",
+    "hydrology": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E03B_HYDRO_CONTEXT_2025",
+    "soil": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E04A_SOIL_CORE_PROFILE_2025",
+    "soil_water": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30E04B_SOIL_WATER_RETENTION_2025",
+    "canonical_final": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025"
+  },
+  "frozen_integration": {
+    "fusion_amplitude": 5,
+    "thresholds": {
+      "T12": 12,
+      "T23": 22,
+      "T34": 32
+    },
+    "max_class_change": 1,
+    "field_validated": false
+  },
+  "automation_policy": {
+    "auto_start_exports": false,
+    "require_qa_before_export": true,
+    "allow_model_retuning_on_new_aoi": false,
+    "new_aoi_mode": "RUN_REPRODUCIBILITY_FIRST; DO_NOT CLAIM TRANSFERABILITY UNTIL TESTED"
+  }
+}

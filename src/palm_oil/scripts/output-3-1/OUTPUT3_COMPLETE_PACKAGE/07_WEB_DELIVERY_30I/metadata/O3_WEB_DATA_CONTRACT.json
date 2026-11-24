@@ -1,0 +1,40 @@
+{
+  "product": "Plantation Condition & Inspection Priority",
+  "aoi_id": "SIAK_AOI01",
+  "monitoring_year": 2025,
+  "baseline": "2020-2024 matched-season baseline",
+  "canonical_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30G_INTEGRATED_V1_1_GRIDLOCKED_2025",
+  "core_asset": "projects/palm-oil-503202/assets/SIAK_AOI01_O3_30D04_BALANCED_RISK_2025",
+  "delivery": {
+    "class_cog": "07_WEB_DELIVERY_30I\\rasters\\SIAK_AOI01_O3_CLASS_COG_2025.tif",
+    "metrics_cog": "07_WEB_DELIVERY_30I\\rasters\\SIAK_AOI01_O3_METRICS_COG_2025.tif",
+    "plantation_boundary": "07_WEB_DELIVERY_30I\\vectors\\O3_PLANTATION_BOUNDARY.geojson",
+    "inspection_priority": "07_WEB_DELIVERY_30I\\vectors\\O3_INSPECTION_PRIORITY.geojson",
+    "period_summary_csv": "07_WEB_DELIVERY_30I\\tables\\O3_PERIOD_SUMMARY.csv",
+    "period_summary_json": "07_WEB_DELIVERY_30I\\tables\\O3_PERIOD_SUMMARY.json",
+    "temporal_series": "07_WEB_DELIVERY_30I\\tables\\O3_TEMPORAL_SERIES.json",
+    "legend": "07_WEB_DELIVERY_30I\\metadata\\O3_LEGEND.json"
+  },
+  "raster_contract": {
+    "class_cog_bands": [
+      "CORE_CLASS",
+      "INTEGRATED_CLASS",
+      "CLASS_DELTA"
+    ],
+    "metrics_cog_bands": [
+      "CORE_RISK_SCORE_0_100",
+      "CONTEXT_MODIFIER_SCORE",
+      "CONTEXT_MODIFIER_COVERAGE",
+      "INTEGRATED_SCORE_0_100"
+    ],
+    "display_grid": "10 m EPSG:32647",
+    "important_resolution_warning": "Coarser weather/soil/hydrology context retains its effective source resolution. 10 m display alignment does not create 10 m environmental information."
+  },
+  "validation_status": {
+    "analytical_product": "FROZEN_PASS",
+    "field_validated": false,
+    "transferability_validated": false,
+    "cog_validation": "PASS",
+    "raw_source_to_final_one_click_validated": false
+  }
+}

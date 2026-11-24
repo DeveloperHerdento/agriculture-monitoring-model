@@ -1,0 +1,64 @@
+{
+  "schema_version": "OUTPUT4_AOI_CONFIG_V1",
+  "aoi_id": "AOI_ID_HERE",
+  "display_name": "AOI_DISPLAY_NAME_HERE",
+  "reference_year": "YYYY",
+  "monitoring_year": "YYYY",
+  "projected_crs": "EPSG:XXXXX",
+  "grid_size_m": 500,
+  "expected_asu_count": "RECALCULATE",
+  "expected_palm_area_ha": "RECALCULATE",
+  "inputs": {
+    "output1_palm_geometry": "NEW_AOI_OUTPUT1_PALM_GEOMETRY",
+    "output2_age_context": "NEW_AOI_OUTPUT2_AGE_CONTEXT",
+    "output3_condition_context": "NEW_AOI_OUTPUT3_CONDITION_CONTEXT",
+    "soil": "SoilGrids_2.0_0_100cm",
+    "rainfall": "CHIRPS_v2_Final_primary",
+    "era5_land": "ERA5-Land",
+    "final_master_csv": "GENERATED_BY_NEW_AOI_PIPELINE"
+  },
+  "model_roles": {
+    "primary_process_model": "PALMSIM",
+    "benchmark_process_model": "APSIM OilPalm",
+    "supervised_yield_ml": "NO_GO_UNTIL_LOCAL_ACTUAL_FFB_LABELS",
+    "priority_integration": "MCDA_RULE_BASED_WITH_SENSITIVITY"
+  },
+  "transfer_policy": {
+    "logic_schema_reusable": true,
+    "class_0_4_semantics_reusable": true,
+    "web_contract_reusable": true,
+    "siak_numeric_thresholds_universally_valid": false,
+    "threshold_use_for_new_aoi": "TRANSFER_TEST_V0_ONLY_UNTIL_QA",
+    "requires_domain_shift_qa": true,
+    "requires_area_and_count_recalculation": true,
+    "requires_climate_mapping_rebuild": true
+  },
+  "web": {
+    "default_show_asu_boundaries": false,
+    "class0_rendered": true,
+    "outside_palm_domain": "transparent/noData",
+    "join_key": "UNIT_ID"
+  },
+  "stage_script_map": {
+    "NOTE": "Populate explicit canonical script mappings for the new AOI. Do not auto-select among multiple development versions."
+  },
+  "web_subset_config": {
+    "aoi_id": "SIAK_AOI01",
+    "display_name": "SIAK_AOI01",
+    "monitoring_year": 2025,
+    "grid_size_m": 500,
+    "expected_asu_count": 820,
+    "expected_palm_area_ha": 13867.099001884668,
+    "package_version": "v1",
+    "source_geometry": "40B03A_FINAL_ASU_500M_EXACT_SIAK_AOI01_V1.geojson",
+    "source_attributes": "40I01_FINAL_OUTPUT4_DELIVERY_MASTER_820_SIAK_AOI01_V1.csv",
+    "source_class_summary": "40I02B_WEB_DISPLAY_CONTRACT_SIAK_AOI01_V1\\40I02B_CLASS_SUMMARY_WITH_PRODUCTIVITY_SIAK_AOI01_V1.csv",
+    "source_legend": "40I02B_WEB_DISPLAY_CONTRACT_SIAK_AOI01_V1\\40I02B_LEGEND_SIAK_AOI01_V1.json",
+    "source_popup_contract": "40I02B_WEB_DISPLAY_CONTRACT_SIAK_AOI01_V1\\40I02B_POPUP_FIELD_CONTRACT_SIAK_AOI01_V1.json",
+    "default_show_asu_boundaries": false,
+    "class0_rendered": true,
+    "outside_palm_domain": "transparent/noData",
+    "model_scope": "Productivity Potential & Management Priority",
+    "local_ffb_validation": false
+  }
+}
